@@ -1,0 +1,96 @@
+ThemeDescription="gooey furries :3"
+
+ThemeAuthor="mtwk"
+
+
+Look=flat
+#TitleBarHeight=18
+TitleBarHeight=0
+TitleBarJustify=50
+
+TitleButtonsLeft=""
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+ColorNormalBorder="#804b62"
+ColorActiveBorder="#ac6b89"
+ColorDialog="#24273a"
+
+ColorActiveTitleBar="#24273a"
+ColorNormalTitleBar="#24273a"
+ColorNormalButton="#303446"
+ColorNormalButtonText="#f2d5cf"
+ColorNormalTitleButton="#303446"
+ColorNormalTitleBarText="#f2d5cf"
+ColorActiveTitleBarText="#f2d5cf"
+#ColorActiveTitleBarShadow="#616161"
+#ColorInactiveTitleBarShadow="#4d4d4d"
+
+ColorNormalMenu="#2e1d22" 
+ColorActiveMenuItem="#562f40"
+ColorNormalMenuItemText="#e4aecc"
+ColorActiveMenuItemText="#e7a0ae"
+ColorDisabledMenuItemText="#b6a88c"
+
+ColorMoveSizeStatus="#282828"
+ColorMoveSizeStatusText="#ebd5ad"
+ColorInputSelection="#e0e0e0"
+
+#taskbar
+ColorDefaultTaskBar="#303446"
+ColorNormalTaskBarApp="#303446"
+ColorMinimizedTaskBarApp="#303446"
+ColorActiveTaskBarApp="#383a4b"
+ColorNormalTaskBarAppText="#eab9d5"
+ColorMinimizedTaskBarAppText="#eab9d5"
+ColorActiveTaskBarAppText="#eab9d5"
+
+#listbox
+ColorListBox="#282828"
+ColorListBoxText="#b6a88c"
+ColorListBoxSelection="#b6a88c"
+ColorListBoxSelectionText="#282828"
+
+ColorDialog="#282828"
+
+#Tooltip text
+ColorToolTip="#282828"
+ColorToolTipText="#ebd5ad"
+
+#scrollbar
+ColorScrollBar="#282828"
+ColorScrollBarSlider="#b6a88c"
+ColorScrollBarButtonArrow="#282828"
+
+#Quick switch
+ColorQuickSwitch="#282828"
+ColorQuickSwitchActive="#7c6f64"
+ColorQuickSwitchText="#ebd5ad"
+
+ColorClock="#303446"
+ColorClockText="#eab9d5"
+RolloverButtonsSupported=1
+
+#background parameters
+DesktopBackgroundCenter=0
+DesktopBackgroundFill=1
+DesktopBackgroundImage="v4_day.png"
+
+# fonts
+
+ActiveWorkspaceFontNameXft =  	"Unifont"
+NormalWorkspaceFontNameXft = 	"Unifont"
+TitleFontNameXft	   	   = 	"Unifont"
+MenuFontNameXft	           =    "Unifont"
+MinimizedWindowFontNameXft =    "Unifont"
+ActiveButtonFontNameXft    =    "Unifont"
+NormalButtonFontNameXft    =    "Unifont"
+QuickSwitchFontNameXft     =    "Unifont"
+ListBoxFontNameXft         =    "Unifont"
+LabelFontNameXft		   =	"Unifont"
+StatusFontNameXft          =    "Unifont"
+ToolTipFontNameXft         =    "Unifont"
+ActiveTaskBarFontNameXft   =    "Unifont"
+NormalTaskBarFontNameXft   =    "Unifont"
+ClockFontNameXft           =    "Unifont"
+ApmFontNameXft             =    "Unifont"

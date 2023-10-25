@@ -1,0 +1,100 @@
+ThemeDescription="goofy theme"
+
+ThemeAuthor="mtwk"
+
+
+Look=flat
+TitleBarHeight=23
+TitleBarJustify=50
+
+TitleButtonsLeft=""
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+#BorderSizeX=3
+#BorderSizeY=3
+#CornerSizeX=0
+#CornerSizeY=0
+#DlgBorderSizeX=12
+#DlgBorderSizeY=12
+#ColorNormalBorder="#bebebe"
+#ColorActiveBorder="#bebebe"
+
+ColorActiveTitleBar="#eaeaea"
+ColorNormalTitleBar="#e0e0e0"
+ColorNormalButton="#e0e0e0"
+ColorNormalTitleButton="#e0e0e0"
+ColorNormalTitleBarText="#323232"
+ColorActiveTitleBarText="#323232"
+ColorActiveTitleBarShadow="#eaeaea"
+ColorActiveTitleBarShadow="#e0e0e0"
+
+ColorNormalMenu="#e0e0e0" 
+ColorActiveMenuItem="#545454"
+ColorNormalMenuItemText="#323232"
+ColorActiveMenuItemText="#e0e0e0"
+ColorDisabledMenuItemText="#afafaf"
+
+ColorMoveSizeStatus="#e0e0e0"
+ColorMoveSizeStatusText="#323232"
+ColorInputSelection="#e0e0e0"
+
+#taskbar parameters
+ColorDefaultTaskBar="#eaeaea"
+ColorNormalTaskBarApp="#eaeaea"
+ColorNormalTaskBarAppText="#323232"
+ColorActiveTaskBarApp="#F5F5F5"
+ColorActiveTaskBarAppText="#323232"
+ColorMinimizedTaskBarApp="#e0e0e0"
+ColorMinimizedTaskBarAppText="#323232"
+
+#listbox
+ColorListBox="#eaeaea"
+ColorListBoxText="#323232"
+ColorListBoxSelection="#ffffff"
+ColorListBoxSelectionText="#323232"
+
+#Dialog box
+ColorDialog="#eaeaea"
+
+#Tooltip text
+ColorToolTip="#eaeaea"
+ColorToolTipText="#323232"
+
+#scrollbar
+ColorScrollBar="#2b0909"
+ColorScrollBarSlider="#2b0909"
+ColorScrollBarButtonArrow="#2b0909"
+
+#Quick switch
+ColorQuickSwitch="#e0e0e0"
+ColorQuickSwitchActive="#eaeaea"
+ColorQuickSwitchText="#323232"
+
+ColorClock="#eaeaea"
+ColorClockText="#323232"
+RolloverButtonsSupported=1
+
+#background parameters
+DesktopBackgroundCenter=0
+DesktopBackgroundFill=1
+DesktopBackgroundImage="bg.png"
+
+# fonts
+
+ActiveWorkspaceFontNameXft =  	"Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+NormalWorkspaceFontNameXft = 	"Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+TitleFontNameXft	   	   = 	"Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+MenuFontNameXft	           =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+MinimizedWindowFontNameXft =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+ActiveButtonFontNameXft    =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+NormalButtonFontNameXft    =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+QuickSwitchFontNameXft     =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+ListBoxFontNameXft         =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+LabelFontNameXft		   =	"Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+StatusFontNameXft          =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+ToolTipFontNameXft         =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+ActiveTaskBarFontNameXft   =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+NormalTaskBarFontNameXft   =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+ClockFontNameXft           =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+ApmFontNameXft             =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"

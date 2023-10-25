@@ -1,0 +1,8 @@
+#!/bin/sh
+
+
+if echo $1 | grep -q del; then
+scrot -s -f -l style=solid,color=#dbb0ba,width=2 ~/images/img.png -e 'xclip -selection clipboard -target image/png -i $f ; rm $f'
+else
+scrot -s -f -l style=solid,color=#abb0ba,width=2 ~/images/img.png -e 'xclip -selection clipboard -target image/png -i $f'
+fi

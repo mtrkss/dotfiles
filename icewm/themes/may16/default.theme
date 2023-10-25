@@ -1,0 +1,105 @@
+ThemeDescription="furry theme styled around a cover art from halley labs"
+
+ThemeAuthor="mtwk/mtrkss"
+
+
+Look=flat
+#TitleBarHeight=15
+TitleBarHeight=0
+#TitleBarJustify=55
+TitleBarJustify=0
+
+TitleButtonsLeft=""
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+BorderSizeX=8
+BorderSizeY=10
+#CornerSizeX=0
+#CornerSizeY=0
+#DlgBorderSizeX=12
+#DlgBorderSizeY=12
+
+ColorNormalBorder="#282B30"
+ColorActiveBorder="#272C36"
+ColorDialog="#1F2229"
+
+ColorActiveTitleBar="#272C36"
+ColorNormalTitleBar="#282B30"
+ColorNormalButton="#272C36"
+ColorNormalButtonText="#ffffff"
+ColorNormalTitleButton="#282B30"
+ColorNormalTitleBarText="#ffffff"
+ColorActiveTitleBarText="#ffffff"
+# eh
+#ColorActiveTitleBarShadow="#616161"
+#ColorInactiveTitleBarShadow="#4d4d4d"
+
+ColorNormalMenu="#313744"
+ColorActiveMenuItem="#414753"
+ColorNormalMenuItemText="#ffffff"
+ColorActiveMenuItemText="#ffffff"
+ColorDisabledMenuItemText="#838e7f"
+
+ColorMoveSizeStatus="#e0e0e0"
+ColorMoveSizeStatusText="#323232"
+ColorInputSelection="#e0e0e0"
+
+#taskbar
+ColorDefaultTaskBar="#393F4B"
+ColorNormalTaskBarApp="#393F4B"
+ColorNormalTaskBarAppText="#ffffff"
+ColorActiveTaskBarApp="#3C424E"
+ColorActiveTaskBarAppText="#ffffff"
+ColorMinimizedTaskBarApp="#393F4B"
+ColorMinimizedTaskBarAppText="#ffffff"
+
+#listbox
+ColorListBox="#454545"
+ColorListBoxText="#e2d3c7"
+ColorListBoxSelection="#ededed"
+ColorListBoxSelectionText="#454545"
+
+ColorLabelText="#eaeaea"
+
+#Tooltip text
+ColorToolTip="#414753"
+ColorToolTipText="#ffffff"
+
+#scrollbar
+ColorScrollBar="#414753"
+ColorScrollBarSlider="#4E5565"
+ColorScrollBarButtonArrow="#ffffff"
+
+#Quick switch
+ColorQuickSwitch="#454E68"
+ColorQuickSwitchActive="#596178"
+ColorQuickSwitchText="#ffffff"
+
+ColorClock="#393F4B"
+ColorClockText="#ffffff"
+RolloverButtonsSupported=1
+
+#background parameters
+DesktopBackgroundCenter=0
+DesktopBackgroundFill=1
+DesktopBackgroundImage="bg.png"
+
+# fonts
+
+ActiveWorkspaceFontNameXft =  	Unifont
+NormalWorkspaceFontNameXft = 	Unifont
+TitleFontNameXft	   	   = 	"Bm437 DOS/V re. JPN12:size=8:hint=false"
+MenuFontNameXft	           =    Unifont
+MinimizedWindowFontNameXft =    Unifont
+ActiveButtonFontNameXft    =    Unifont
+NormalButtonFontNameXft    =    Unifont
+QuickSwitchFontNameXft     =    Unifont
+ListBoxFontNameXft         =    Unifont
+LabelFontNameXft		   =	Unifont
+StatusFontNameXft          =    Unifont
+ToolTipFontNameXft         =    Unifont
+ActiveTaskBarFontNameXft   =    Unifont
+NormalTaskBarFontNameXft   =    Unifont
+ClockFontNameXft           =    Unifont
+ApmFontNameXft             =    Unifont

@@ -1,0 +1,52 @@
+# This is an example for icewm 3.4.1 hotkey definition file.
+# It will be installed as /usr/local/share/icewm/keys.
+# Place your variants in /usr/local/etc/icewm or in $HOME/.icewm since
+# modifications to this file will be overwritten when you reinstall icewm.
+#
+# A list of all valid keyboard symbols can be found in
+# /usr/include/X11/keysymdef.h, XF86keysym.h, ...
+# Omit the XK_ prefixs and replace XF86XK_ prefixes by XF86.
+# Valid modifiers are Alt, AltGr, Ctrl, Shift, Meta, Super and Hyper.
+#
+key "Super+x"            	urxvt
+key "Super+Enter"           xterm
+key "Super+Shift+Enter"     mlterm
+key "Print"            		~/.icewm/scripts/shot del
+key "Super+Print"           ~/.icewm/scripts/shot
+key "Super+Print"           flameshot launcher
+key "Super+m"           	rhythmbox
+key "Super+f"				firefox
+key "Super+c"				~/.icewm/scripts/xcolor.sh
+key "Super+s"				xmag
+
+
+# "Multimedia key" bindings for Xorg. Gather the keycodes of your
+# advanced function keys by watching the output of the xev command
+# whilst pressing those keys and map those symbols using xmodmap.
+# Note that some of these may interfere with other listeners,
+# like systemd for the suspend key events.
+#
+# key "XF86Standby"         /bin/sh -c "{ test -e /run/systemd/system && systemctl suspend; } ||:"
+# key "XF86Sleep"           /bin/sh -c "{ test -e /run/systemd/system && systemctl suspend; } ||:"
+key "XF86AudioLowerVolume"  amixer sset Master 5%-
+key "XF86AudioRaiseVolume"  amixer sset Master 5%+
+key "XF86AudioMute"         amixer sset Master toggle
+key "XF86HomePage"          xdg-open about:blank
+key "XF86Search"            xdg-open https://www.google.com
+key "XF86Calculator"        /bin/sh -c "gnome-calculator || xcalc || ( type bc >/dev/null 2>&1 && xterm -e bc -l)"
+
+#switchkey "Super+p"         icewm-menu-xrandr
+
+key "Super+Shift+Up" icesh -f moveby 0 -100
+key "Super+Shift+Down" icesh -f moveby 0 100
+key "Super+Shift+Left" icesh -f moveby -100 0
+key "Super+Shift+Right" icesh -f moveby 100 0
+
+key "Super+Shift+Alt+Up" icesh -f moveby 0 -10
+key "Super+Shift+Alt+Down" icesh -f moveby 0 10
+key "Super+Shift+Alt+Left" icesh -f moveby -10 0
+key "Super+Shift+Alt+Right" icesh -f moveby 10 0
+
+key "Super+Up" ~/.icewm/scripts/tiling/center
+key "Super+Left" ~/.icewm/scripts/tiling/lm
+key "Super+Right" ~/.icewm/scripts/tiling/rm

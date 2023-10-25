@@ -1,0 +1,4 @@
+#!/bin/sh
+# ---LM---
+icesh -f sizeto 1904 1032 left ;
+icesh -f move 2 30 ;

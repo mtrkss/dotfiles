@@ -1,0 +1,2 @@
+#!/bin/sh
+icesh -f sizeto 700 450

@@ -1,0 +1,25 @@
+# This is an example for icewm 3.4.1 menu definition file.
+# It will be installed as /usr/local/share/icewm/menu.
+# Place your variants in /usr/local/etc/icewm or in $HOME/.icewm since
+# modifications to this file will be overwritten when you reinstall icewm.
+#
+prog URxvt xterm urxvt
+#prog kitty xterm kitty
+#prog MLTerm xterm mlterm
+prog Xterm xterm xterm
+prog Gimp gimp gimp
+prog Hexchat xchat hexchat
+prog Files folder thunar
+include ~/.icewm/appmenu
+
+menu "Tools" _none_ {
+prog xfontsel _none_ xfontsel
+prog xprop _none_ ~/.icewm/scripts/xprop.sh
+prog xwininfo _none_ ~/.icewm/scripts/xwininfo.sh
+}
+menu Fixes _none_ {
+	menu ice-hacks _none_ {
+	prog reload _none_ ~/.icewm/scripts/menupd.sh
+	prog fehbg _none_ ~/.fehbg
+	}
+	}

@@ -1,0 +1,102 @@
+ThemeDescription="goofy theme"
+
+ThemeAuthor="mtwk"
+
+
+Look=flat
+#TitleBarHeight=19
+TitleBarHeight=0
+TitleBarJustify=50
+
+TitleButtonsLeft=""
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+#BorderSizeX=3
+#BorderSizeY=3
+#CornerSizeX=0
+#CornerSizeY=0
+#DlgBorderSizeX=12
+#DlgBorderSizeY=12
+ColorNormalBorder="#4c4c4c"
+ColorActiveBorder="#606060"
+ColorDialog="#353535"
+
+ColorActiveTitleBar="#454545"
+ColorNormalTitleBar="#404040"
+ColorNormalButton="#454545"
+ColorNormalButtonText="#ededed"
+ColorNormalTitleButton="#454545"
+ColorNormalTitleBarText="#a9a9aa"
+ColorActiveTitleBarText="#c9c9ca"
+ColorActiveTitleBarShadow="#616161"
+ColorInactiveTitleBarShadow="#4d4d4d"
+
+ColorNormalMenu="#464646" 
+ColorActiveMenuItem="#6b7b65"
+ColorNormalMenuItemText="#d9d9da"
+ColorActiveMenuItemText="#ffffff"
+ColorDisabledMenuItemText="#838e7f"
+
+ColorMoveSizeStatus="#e0e0e0"
+ColorMoveSizeStatusText="#323232"
+ColorInputSelection="#e0e0e0"
+
+#taskbar
+ColorDefaultTaskBar="#454545"
+ColorNormalTaskBarApp="#454545"
+ColorNormalTaskBarAppText="#ededed"
+ColorActiveTaskBarApp="#454545"
+ColorActiveTaskBarAppText="#ededed"
+ColorMinimizedTaskBarApp="#454545"
+ColorMinimizedTaskBarAppText="#e6ebdf"
+
+#listbox
+ColorListBox="#454545"
+ColorListBoxText="#ededed"
+ColorListBoxSelection="#ededed"
+ColorListBoxSelectionText="#454545"
+
+ColorLabelText="#eaeaea"
+
+#Tooltip text
+ColorToolTip="#eaeaea"
+ColorToolTipText="#323232"
+
+#scrollbar
+ColorScrollBar="#494949"
+ColorScrollBarSlider="#595959"
+ColorScrollBarButtonArrow="#9e9e9e"
+
+#Quick switch
+ColorQuickSwitch="#e0e0e0"
+ColorQuickSwitchActive="#eaeaea"
+ColorQuickSwitchText="#323232"
+
+ColorClock="#454545"
+ColorClockText="#ededed"
+RolloverButtonsSupported=1
+
+#background parameters
+DesktopBackgroundCenter=0
+DesktopBackgroundFill=1
+DesktopBackgroundImage="bg.png"
+
+# fonts
+
+ActiveWorkspaceFontNameXft =  	"Iosevka:size=11"
+NormalWorkspaceFontNameXft = 	"Iosevka:size=11"
+TitleFontNameXft	   	   = 	"Iosevka:size=11"
+MenuFontNameXft	           =    "Iosevka:size=11"
+MinimizedWindowFontNameXft =    "Iosevka:size=11"
+ActiveButtonFontNameXft    =    "Iosevka:size=11"
+NormalButtonFontNameXft    =    "Iosevka:size=11"
+QuickSwitchFontNameXft     =    "Iosevka:size=11"
+ListBoxFontNameXft         =    "Iosevka:size=11"
+LabelFontNameXft		   =	"Iosevka:size=11"
+StatusFontNameXft          =    "Iosevka:size=11"
+ToolTipFontNameXft         =    "Iosevka:size=11"
+ActiveTaskBarFontNameXft   =    "Iosevka:size=11"
+NormalTaskBarFontNameXft   =    "Iosevka:size=11"
+ClockFontNameXft           =    "Iosevka:size=11"
+ApmFontNameXft             =    "Iosevka:size=11"

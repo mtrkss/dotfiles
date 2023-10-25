@@ -1,0 +1,103 @@
+ThemeDescription="goofy theme"
+
+ThemeAuthor="mtwk"
+
+
+Look=flat
+TitleBarHeight=15
+#TitleBarHeight=0
+#TitleBarJustify=55
+TitleBarJustify=0
+
+TitleButtonsLeft=""
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+BorderSizeX=8
+BorderSizeY=10
+#CornerSizeX=0
+#CornerSizeY=0
+#DlgBorderSizeX=12
+#DlgBorderSizeY=12
+ColorNormalBorder="#4c4c4c"
+ColorActiveBorder="#606060"
+ColorDialog="#353535"
+
+ColorActiveTitleBar="#39332e"
+ColorNormalTitleBar="#35312c"
+ColorNormalButton="#35312c"
+ColorNormalButtonText="#ededed"
+ColorNormalTitleButton="#35312c"
+ColorNormalTitleBarText="#cabdb2"
+ColorActiveTitleBarText="#e1d2c6"
+#ColorActiveTitleBarShadow="#616161"
+#ColorInactiveTitleBarShadow="#4d4d4d"
+
+ColorNormalMenu="#3c3a37"
+ColorActiveMenuItem="#413e39"
+ColorNormalMenuItemText="#d9d9da"
+ColorActiveMenuItemText="#ffffff"
+ColorDisabledMenuItemText="#838e7f"
+
+ColorMoveSizeStatus="#e0e0e0"
+ColorMoveSizeStatusText="#323232"
+ColorInputSelection="#e0e0e0"
+
+#taskbar
+ColorDefaultTaskBar="#3c3a37"
+ColorNormalTaskBarApp="#3c3a37"
+ColorNormalTaskBarAppText="#e2d3c7"
+ColorActiveTaskBarApp="#423d35"
+ColorActiveTaskBarAppText="#dfdfdf"
+ColorMinimizedTaskBarApp="#3c3a37"
+ColorMinimizedTaskBarAppText="#e6ebdf"
+
+#listbox
+ColorListBox="#454545"
+ColorListBoxText="#e2d3c7"
+ColorListBoxSelection="#ededed"
+ColorListBoxSelectionText="#454545"
+
+ColorLabelText="#eaeaea"
+
+#Tooltip text
+ColorToolTip="#eaeaea"
+ColorToolTipText="#cabdb2"
+
+#scrollbar
+ColorScrollBar="#494949"
+ColorScrollBarSlider="#595959"
+ColorScrollBarButtonArrow="#9e9e9e"
+
+#Quick switch
+ColorQuickSwitch="#35322d"
+ColorQuickSwitchActive="#3c3a37"
+ColorQuickSwitchText="#cabdb2"
+
+ColorClock="#3c3a37"
+ColorClockText="#e2d3c7"
+RolloverButtonsSupported=1
+
+#background parameters
+DesktopBackgroundCenter=0
+DesktopBackgroundFill=1
+DesktopBackgroundImage="bg.png"
+
+# fonts
+
+ActiveWorkspaceFontNameXft =  	Unifont
+NormalWorkspaceFontNameXft = 	Unifont
+TitleFontNameXft	   	   = 	"Bm437 DOS/V re. JPN12:size=8:hint=false"
+MenuFontNameXft	           =    Unifont
+MinimizedWindowFontNameXft =    Unifont
+ActiveButtonFontNameXft    =    Unifont
+NormalButtonFontNameXft    =    Unifont
+QuickSwitchFontNameXft     =    Unifont
+ListBoxFontNameXft         =    Unifont
+LabelFontNameXft		   =	Unifont
+StatusFontNameXft          =    Unifont
+ToolTipFontNameXft         =    Unifont
+ActiveTaskBarFontNameXft   =    Unifont
+NormalTaskBarFontNameXft   =    Unifont
+ClockFontNameXft           =    Unifont
+ApmFontNameXft             =    Unifont
