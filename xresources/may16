@@ -41,23 +41,23 @@ URxvt.fadeColor: rgba:2800/2b00/3000/0000
 *.color8:       #868d95
 
 ! darkred+red
-*.color1:       #e48585
-*.color9:       #e97777
+*.color1:       #f8c8ee
+*.color9:       #f4b6d4
 
 ! darkgreen+green
 *.color2:       #c4b6d4
 *.color10:      #d8c8ee
 
 ! darkyellow+yellow
-*.color3:       #c4b6d4
+*.color3:       #9486a4
 *.color11:      #d8c8ee
 
 ! darkblue+blue
-*.color4:       #c4b6d4
+*.color4:       #d8c8ee
 *.color12:      #d8c8ee
 
 ! darkpurp+purp
-*.color5:       #c4b6d4
+*.color5:       #a496b4
 *.color13:      #d8c8ee
 
 ! darkcyan+cyan
