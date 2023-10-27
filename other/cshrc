@@ -1,0 +1,48 @@
+alias h			history
+alias j			jobs -l
+alias ls 		ls --color=auto
+alias la		ls -aF --color=auto
+alias lf		ls -FA --color=auto
+alias ll		ls -lAF --color=auto
+alias FUCKING 	sudo
+alias fucking 	sudo
+alias pkg-i 	pkg ins
+alias pkg		sudo pkg
+alias pkg-r 	pkg remove
+alias pkg-s		pkg search
+alias reboot    sudo reboot
+alias poweroff	sudo poweroff
+
+alias steam-install "/opt/steam-utils/bin/steam-install"
+alias !steam-install "/opt/steam-utils/bin/steam-install --allow-stealing-my-passwords,-browser-history-and-ssh-keys"
+alias steam "/opt/steam-utils/bin/steam"
+
+# These are normally set through /etc/login.conf.  You may override them here
+# if wanted.
+# set path = (/sbin /bin /usr/sbin /usr/bin /usr/local/sbin /usr/local/bin $HOME/bin)
+# A righteous umask
+# umask 22
+
+setenv	EDITOR	vim
+setenv	PAGER	less
+
+if ($?prompt) then
+	# An interactive shell -- set some stuff up
+	set prompt = "%m%~%#"
+	set promptchars = "?!"
+
+	set filec
+	set history = 1000
+	set savehist = (1000 merge)
+	set autolist = ambiguous
+	# Use history to aid expansion
+	set autoexpand
+	set autorehash
+	set mail = (/var/mail/$USER)
+	if ( $?tcsh ) then
+		bindkey "^W" backward-delete-word
+		bindkey -k up history-search-backward
+		bindkey -k down history-search-forward
+	endif
+
+endif
