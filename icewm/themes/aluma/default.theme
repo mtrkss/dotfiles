@@ -4,7 +4,7 @@ ThemeAuthor="mtwk"
 
 
 Look=flat
-TitleBarHeight=23
+TitleBarHeight=0
 TitleBarJustify=50
 
 TitleButtonsLeft=""
@@ -51,7 +51,7 @@ ColorMinimizedTaskBarAppText="#323232"
 #listbox
 ColorListBox="#eaeaea"
 ColorListBoxText="#323232"
-ColorListBoxSelection="#ffffff"
+ColorListBoxSelection="#ababab"
 ColorListBoxSelectionText="#323232"
 
 #Dialog box
@@ -82,19 +82,19 @@ DesktopBackgroundImage="bg.png"
 
 # fonts
 
-ActiveWorkspaceFontNameXft =  	"Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-NormalWorkspaceFontNameXft = 	"Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-TitleFontNameXft	   	   = 	"Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-MenuFontNameXft	           =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-MinimizedWindowFontNameXft =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-ActiveButtonFontNameXft    =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-NormalButtonFontNameXft    =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-QuickSwitchFontNameXft     =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-ListBoxFontNameXft         =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-LabelFontNameXft		   =	"Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-StatusFontNameXft          =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-ToolTipFontNameXft         =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-ActiveTaskBarFontNameXft   =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-NormalTaskBarFontNameXft   =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-ClockFontNameXft           =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
-ApmFontNameXft             =    "Sarasa Fixed SC:size=11:antialias=true:hinting=true"
+ActiveWorkspaceFontNameXft =  	"Iosevka:size=11:style=Regular"
+NormalWorkspaceFontNameXft = 	"Iosevka:size=11:style=Regular"
+TitleFontNameXft	   	   = 	"Iosevka:size=11:style=Regular"
+MenuFontNameXft	           =    "Iosevka:size=11:style=Regular"
+MinimizedWindowFontNameXft =    "Iosevka:size=11:style=Regular"
+ActiveButtonFontNameXft    =    "Iosevka:size=11:style=Regular"
+NormalButtonFontNameXft    =    "Iosevka:size=11:style=Regular"
+QuickSwitchFontNameXft     =    "Iosevka:size=11:style=Regular"
+ListBoxFontNameXft         =    "Iosevka:size=11:style=Regular"
+LabelFontNameXft		   =	"Iosevka:size=11:style=Regular"
+StatusFontNameXft          =    "Iosevka:size=11:style=Regular"
+ToolTipFontNameXft         =    "Iosevka:size=11:style=Regular"
+ActiveTaskBarFontNameXft   =    "Iosevka:size=11:style=Regular"
+NormalTaskBarFontNameXft   =    "Iosevka:size=11:style=Regular"
+ClockFontNameXft           =    "Iosevka:size=11:style=Regular"
+ApmFontNameXft             =    "Iosevka:size=11:style=Regular"

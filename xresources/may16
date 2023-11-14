@@ -3,15 +3,15 @@ xeyes*center: #ffffff
 xeyes*foreground: #2f2f2f
 xeyes*outline: #2f2f2f
 !clock fix
-xclock*.hourColor: #bbbbbb
-xclock*.minuteColor: #bbbbbb
-xclock*.minorColor: #bbbbbb
-xclock*.majorColor: #bbbbbb
-Clock*hour: #bbbbbb
-Clock*minute: #bbbbbb
-Clock*jewel: #bbbbbb
-Clock*BorderColor: #a9adaa
-Clock*Background: #2f2f2f
+xclock*hourColor: #ffffff
+xclock*minuteColor: #ffffff
+xclock*minorColor: #ffffff
+xclock*majorColor: #ffffff
+Clock*hour: #ffffff
+Clock*minute: #ffffff
+Clock*jewel: #ffffff
+Clock*BorderColor: #323232
+Clock*Background: #323232
 
 *.foreground:   #dcd6e4
 *.background:   #282b30
@@ -32,38 +32,38 @@ URxvt.fading: 10
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.internalBorder: 4
-URxvt.background: rgba:2800/2b00/3000/dddd
-URxvt.borderColor: rgba:2800/2b00/3000/dddd
+URxvt.background: rgba:2800/2b00/3000/aaaa
+URxvt.borderColor: rgba:2800/2b00/3000/aaaa
 URxvt.fadeColor: rgba:2800/2b00/3000/0000
 
 ! black+gray
 *.color0:       #282b30
-*.color8:       #868d95
+*.color8:       #8486a4
 
 ! darkred+red
-*.color1:       #f8c8ee
-*.color9:       #f4b6d4
+*.color1:       #e8c8ee
+*.color9:       #e4b6d4
 
 ! darkgreen+green
-*.color2:       #c4b6d4
-*.color10:      #d8c8ee
+*.color2:       #8486a4
+*.color10:      #b8c8ee
 
 ! darkyellow+yellow
-*.color3:       #9486a4
-*.color11:      #d8c8ee
+*.color3:       #8486a4
+*.color11:      #c8c8ee
 
 ! darkblue+blue
-*.color4:       #d8c8ee
-*.color12:      #d8c8ee
+*.color4:       #c8c8ee
+*.color12:      #c8c8ee
 
 ! darkpurp+purp
-*.color5:       #a496b4
-*.color13:      #d8c8ee
+*.color5:       #9496b4
+*.color13:      #c8c8ee
 
 ! darkcyan+cyan
-*.color6:       #c4b6d4
-*.color14:      #d8c8ee
+*.color6:       #b4b6d4
+*.color14:      #c8c8ee
 
 ! lightgray+white
-*.color7:       #bec2da
+*.color7:       #bed2ea
 *.color15:      #ffffff

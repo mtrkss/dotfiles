@@ -1,0 +1,111 @@
+ThemeDescription="awesum dark theme for icewm"
+
+ThemeAuthor="mtrkss"
+
+Look=flat
+TitleBarHeight=0
+TitleBarJustify=50
+
+TitleButtonsLeft=""
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+#BorderSizeX=3
+#BorderSizeY=3
+#CornerSizeX=0
+#CornerSizeY=0
+#DlgBorderSizeX=12
+#DlgBorderSizeY=12
+#ColorNormalBorder="#bebebe"
+#ColorActiveBorder="#bebebe"
+
+ColorActiveTitleBar="#323232"
+ColorNormalTitleBar="#323232"
+ColorNormalButton="#323232"
+ColorNormalTitleButton="#323232"
+ColorNormalTitleBarText="#e0e0e0"
+ColorActiveTitleBarText="#e0e0e0"
+ColorActiveTitleBarShadow="#323232"
+ColorActiveTitleBarShadow="#323232"
+
+ColorNormalMenu="#323232" 
+ColorActiveMenuItem="#545454"
+ColorNormalMenuItemText="#e0e0e0"
+ColorActiveMenuItemText="#e0e0e0"
+ColorDisabledMenuItemText="#afafaf"
+
+ColorMoveSizeStatus="#323232"
+ColorMoveSizeStatusText="#ececec"
+ColorInputSelection="#323232"
+
+#taskbar parameters
+ColorDefaultTaskBar="#323232"
+ColorNormalTaskBarApp="#323232"
+ColorNormalTaskBarAppText="#e0e0e0"
+ColorActiveTaskBarApp="#3a3a3a"
+ColorActiveTaskBarAppText="#eeeeee"
+ColorMinimizedTaskBarApp="#2f2f2f"
+ColorMinimizedTaskBarAppText="#dddddd"
+
+#listbox
+ColorListBox="#323232"
+ColorListBoxText="#ececec"
+ColorListBoxSelection="#4a4a4a"
+ColorListBoxSelectionText="#ffffff"
+
+#Dialog box
+ColorDialogSelectionText="#ffffff"
+
+#Label
+ColorLabel="#e0e0e0"
+ColorLabelText="#e0e0e0"
+
+#Tooltip text
+ColorToolTip="#4c4c50"
+ColorToolTipText="#ffffff"
+
+#Input
+ColorInput="#323232"
+ColorInputText="#ececec"
+ColorInputSelection="#4a4a4a"
+ColorInputSelectionText="#ffffff"
+
+#scrollbar
+ColorScrollBar="#2b0909"
+ColorScrollBarSlider="#2b0909"
+ColorScrollBarButtonArrow="#2b0909"
+
+#quick switch
+ColorQuickSwitch="#3f3f3f"
+ColorQuickSwitchActive="#5f5f5f"
+ColorQuickSwitchText="#ffffff"
+
+ColorClock="#323232"
+ColorClockText="#e0e0e0"
+RolloverButtonsSupported=1
+
+#background parameters
+DesktopBackgroundCenter=0
+DesktopBackgroundFill=1
+DesktopBackgroundImage="bg.jpg"
+
+ColorNormalButtonText="#ffffff"
+
+# fonts
+
+ActiveWorkspaceFontNameXft =  	"Unifont:size=12:antialias=false:hinting=false"
+NormalWorkspaceFontNameXft = 	"Unifont:size=12:antialias=false:hinting=false"
+TitleFontNameXft	   = 	"Unifont:size=12:antialias=false:hinting=false"
+MenuFontNameXft	           =    "Unifont:size=12:antialias=false:hinting=false"
+MinimizedWindowFontNameXft =    "Unifont:size=12:antialias=false:hinting=false"
+ActiveButtonFontNameXft    =    "Unifont:size=12:antialias=false:hinting=false"
+NormalButtonFontNameXft    =    "Unifont:size=12:antialias=false:hinting=false"
+QuickSwitchFontNameXft     =    "Unifont:size=12:antialias=false:hinting=false"
+ListBoxFontNameXft         =    "Unifont:size=12:antialias=false:hinting=false"
+LabelFontNameXft	   =	"Unifont:size=12:antialias=false:hinting=false"
+StatusFontNameXft          =    "Unifont:size=12:antialias=false:hinting=false"
+ToolTipFontNameXft         =    "Unifont:size=12:antialias=false:hinting=false"
+ActiveTaskBarFontNameXft   =    "Unifont:size=12:antialias=false:hinting=false"
+NormalTaskBarFontNameXft   =    "Unifont:size=12:antialias=false:hinting=false"
+ClockFontNameXft           =    "Unifont:size=12:antialias=false:hinting=false"
+ApmFontNameXft             =    "Unifont:size=12:antialias=false:hinting=false"
