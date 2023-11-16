@@ -1,2 +1,2 @@
 #!/bin/sh
-xcolor | xmessage -title "xprop output" -file -
+xcolor | xmessage -title "xcolor" -file -
