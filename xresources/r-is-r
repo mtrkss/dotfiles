@@ -1,0 +1,59 @@
+XTerm*faceName: BmPlus ToshibaSat 9x16:size=12
+XTerm*allowBoldFonts: false
+xterm*foreground: #ffffff
+xterm*background: #101010
+
+*.foreground:   #5e5ea5
+*.background:   #dfdfdf
+*.cursorColor:  #dcdcdc
+!*font: -misc-fixed-medium-r-normal-*-14-*-*-*-*-*-koi8-r
+
+urxvt*font: xft:MxPlus ToshibaSat 8x16:size=12
+urxvt*boldFont: xft:MxPlus ToshibaSat 8x16:size=12
+!xterm.vt100.renderFont: false
+
+URxvt.scrollstyle: plain
+URxvt.scrollBar: true
+URxvt.transparent: false
+URxvt.borderLess: false
+URxvt.scrollBar_right: true
+URxvt.thickness: 5
+URxvt.fading: 10
+URxvt.letterSpace: 0
+!URxvt.lineSpace: 0
+URxvt.internalBorder: 4
+!URxvt.borderColor: rgba:0000/0000/0000/dddd
+URxvt.foreground: #ffffff
+URxvt.background: #101010
+
+! black+gray
+*.color0:       #202020
+*.color8:       #696969
+
+! darkred+red
+*.color1:       #cb6c9d
+*.color9:       #ff8ec8
+
+! darkgreen+green
+*.color2:       #00a77c
+*.color10:      #00ffbe
+
+! darkyellow+yellow
+*.color3:       #8abc74
+*.color11:      #b8f79c
+
+! darkblue+blue
+*.color4:       #0060ba
+*.color12:      #0084ff
+
+! darkpurp+purp
+*.color5:       #6c6cba
+*.color13:      #8e8efc
+
+! darkcyan+cyan
+*.color6:       #a2e4e3
+*.color14:      #b9ffff
+
+! lightgray+white
+*.color7:       #dfdfdf
+*.color15:      #ffffff

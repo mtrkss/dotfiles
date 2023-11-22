@@ -1,0 +1,5 @@
+/* XPM */
+static char * menubg_xpm[] = {
+"1 1 1 1",
+" 	c #F20058",
+" "};
