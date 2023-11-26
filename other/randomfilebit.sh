@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
 
-if [[ "$1" -ne "i-know-what-i-am-doing-yes-please-break-my-system-into-a-million-pieces-now" ]]; then
-  printf "\033[0;1;31mWARNING!!! Run this code at your own risk!!!\033[0m\n"
-  printf "Pass --i-know-what-i-am-doing-yes-please-break-my-system-into-a-million-pieces-now to run this code.\n"
-  exit 1;
-fi;
+# script by https://github.com/StanTheAwesomeMan
 
+if [ "$1" = "--i-know-what-i-am-doing-yes-please-break-my-system-into-a-million-pieces-now" ]; then
 files=($(find / -writable -xdev -type f 2>/dev/null)); file="";
 file=${files[$(shuf -i 0-${#files[@]} -n 1)]};
 f="$file"; w=$(tput cols); p=$((w/10+20)); 
@@ -21,3 +18,8 @@ bitmask=$(bc <<< "obase=2; $mask")
 bitoffset=$(printf "%08d" $bitmask | awk -F '1' '{printf $1}' | wc -c)
 printf "XOR with %08d at byte %d (flipped bit %d)\n" $bitmask $offset $bitoffset
 exit 0;
+else
+printf "\033[0;1;31mWARNING!!! Run this code at your own risk!!!\033[0m\n"
+printf "Pass --i-know-what-i-am-doing-yes-please-break-my-system-into-a-million-pieces-now to run this code.\n"
+exit 1;
+fi

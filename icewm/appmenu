@@ -1,0 +1,60 @@
+menu "Applications" _none_ {
+  menu "Accessories" _none_ {
+    prog "Bulk Rename" /usr/local/share/icons/hicolor/16x16/apps/org.xfce.thunar.png thunar --bulk-rename 
+    prog "Files" _none_ nautilus --new-window 
+    prog "Mousepad" /usr/local/share/icons/hicolor/16x16/apps/org.xfce.mousepad.png mousepad 
+  }
+  menu "Development" _none_ {
+    prog "GTK Demo" _none_ gtk4-demo
+    prog "Glade" _none_ glade 
+    prog "Icon Browser" _none_ gtk4-icon-browser
+    prog "Node Editor" _none_ gtk4-node-editor
+    prog "Print Editor" _none_ gtk4-print-editor 
+    prog "Widget Factory" _none_ gtk4-widget-factory
+  }
+  menu "Education" _none_ {
+    prog "XaoS" /usr/local/share/pixmaps/xaos.png xaos
+  }
+  menu "Games" _none_ {
+    prog "GZDoom" /usr/local/share/pixmaps/gzdoom.xpm gzdoom
+  }
+  menu "Graphics" _none_ {
+    prog "GNU Image Manipulation Program" /usr/local/share/icons/hicolor/16x16/apps/gimp.png gimp-2.10 
+  }
+  menu "Multimedia" _none_ {
+    prog "Audacity" /usr/local/share/pixmaps/audacity.xpm env UBUNTU_MENUPROXY=0 audacity 
+    prog "Brasero" /usr/local/share/icons/hicolor/16x16/apps/brasero.png brasero 
+    prog "DSBMixer" /org/gtk/libgtk/icons/16x16/status/audio-volume-high.png dsbmixer
+    prog "PulseAudio Volume Control" /org/gtk/libgtk/icons/16x16/actions/multimedia-volume-control.png pavucontrol
+    prog "Rhythmbox" _none_ rhythmbox 
+    prog "VLC media player" /usr/local/share/icons/hicolor/16x16/apps/vlc.png /usr/local/bin/vlc --started-from-file 
+    prog "Videos" _none_ totem 
+    prog "mpv Media Player" /usr/local/share/icons/hicolor/16x16/apps/mpv.png mpv --player-operation-mode=pseudo-gui -- 
+  }
+  menu "Network" _none_ {
+    prog "Chromium" /usr/local/share/icons/hicolor/22x22/apps/chrome.png chrome 
+    prog "Discord" _none_ discord 
+    prog "Firefox Web Browser" /usr/local/share/pixmaps/firefox.png firefox 
+    prog "HexChat" /usr/local/share/icons/hicolor/48x48/apps/io.github.Hexchat.png hexchat --existing 
+    prog "TigerVNC viewer" /usr/local/share/icons/hicolor/16x16/apps/tigervnc.png vncviewer
+    prog "links" /usr/local/share/pixmaps/links.xpm links -g
+  }
+  menu "Settings" _none_ {
+    prog "Customize Look and Feel" _none_ lxappearance
+    prog "Desktop Preferences" /usr/local/share/icons/Adwaita/16x16/places/user-desktop.png pcmanfm --desktop-pref
+    prog "File Manager Settings" /usr/local/share/icons/hicolor/16x16/apps/org.xfce.thunar.png thunar-settings
+    prog "GTK Settings" _none_ nwg-look
+    prog "Qt5 Settings" _none_ qt5ct
+    prog "Text Editor Settings" /usr/local/share/icons/hicolor/16x16/apps/org.xfce.mousepad.png mousepad --preferences
+  }
+  menu "System" _none_ {
+    prog "Alacritty" _none_ alacritty
+    prog "File Manager PCManFM" _none_ pcmanfm 
+    prog "Htop" /usr/local/share/pixmaps/htop.png xterm -e htop
+    prog "Thunar File Manager" /usr/local/share/icons/hicolor/16x16/apps/org.xfce.thunar.png thunar 
+    prog "XTerm" /usr/local/share/pixmaps/xterm-color_48x48.xpm xterm
+    prog "btop++" /usr/local/share/icons/hicolor/48x48/apps/btop.png xterm -e btop
+    prog "fish" /usr/local/share/pixmaps/fish.png xterm -e fish
+    prog "xvt" /usr/local/share/pixmaps/xvt.png xvt
+  }
+}

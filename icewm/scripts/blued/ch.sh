@@ -16,6 +16,8 @@
 #    echo "Invalid input. Please choose 'y' or 'n'."
 #fi
 
+echo arming sudo...
+sudo echo "Done!"
 printf "Connect headphones? [y/n]: "
 read response
 
@@ -39,14 +41,15 @@ printf "Connect to ue0? [y/n]: "
 read response
 if echo "$response" | grep -qE '^[Yy]$'; then
     echo "Okay!"
+    sudo ifconfig wlan0 destroy
     sudo dhclient ue0
     sleep 1
 elif echo "$response" | grep -qE '^[Nn]$'; then
-    exit
+	dbus-run-session pulseaudio --start
 else
     echo "Invalid input. Please choose 'y' or 'n'."
 fi
 
-dbus-run-session pulseaudio &
+dbus-run-session pulseaudio --start
 
 sleep 1

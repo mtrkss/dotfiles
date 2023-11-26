@@ -1,0 +1,67 @@
+#!/bin/sh
+
+blueMESS() {
+printf "Connect headphones? [y/n]: "
+read response
+
+if echo "$response" | grep -qE '^[Yy]$'; then
+    echo "Okay!"
+    sudo virtual_oss -T /dev/sndstat -S -a o,-0.2 -C 2 -c 2 -r 44100 -b 16 -s 32 \
+        -R /dev/null -P /dev/bluetooth/headphones -d dsp6 -t vdsp.ctl &
+    sleep 5
+    sudo rm -f /dev/dsp6 ; sudo ln -s /dev/dsp /dev/dsp6
+    sudo pkill virtual_oss
+    sudo virtual_oss -T /dev/sndstat -S -a o,-0.2 -C 2 -c 2 -r 44100 -b 16 -s 512 \
+        -R /dev/null -P /dev/bluetooth/headphones -d dsp -t vdsp.ctl &
+    sleep 1
+elif echo "$response" | grep -qE '^[Nn]$'; then
+echo "oke"
+else
+    echo "Invalid input. Please choose 'y' or 'n'."
+fi
+
+printf "Connect to ue0? [y/n]: "
+read response
+if echo "$response" | grep -qE '^[Yy]$'; then
+    echo "Okay!"
+    sudo dhclient ue0
+    sleep 1
+elif echo "$response" | grep -qE '^[Nn]$'; then
+    exit
+else
+    echo "Invalid input. Please choose 'y' or 'n'."
+fi
+
+dbus-run-session pulseaudio --start &
+
+sleep 1
+}
+
+if [ "$1" = "sketch" ]; then
+	/bin/rm -f ~/.icewm/themes/something-orange/bg.png && cp --dereference ~/sketches/sketchwp.png ~/.icewm/themes/something-orange/bg.png
+	return
+elif [ "$1" = "shot-del" ]; then
+	scrot -s -f -l style=solid,color=#dbb0ba,width=2 ~/adrod/img.png -e 'xclip -selection clipboard -target image/png -i $f ; rm $f'
+	return
+elif [ "$1" = "shot-keep" ]; then
+	scrot -s -f -l style=solid,color=#abb0ba,width=2 ~/adrod/img.png -e 'xclip -selection clipboard -target image/png -i $f'
+	return
+elif [ "$1" = "mpd" ]; then
+	xdgmenumaker -i -f icewm > ~/.icewm/appmenu && icewm -r
+	return
+elif [ "$1" = "blued" ]; then
+	blueMESS
+	return
+elif [ "$1" = "xcolor" ]; then
+	xcolor | xmessage -title "xcolor" -file -
+elif [ "$1" = "xprop" ]; then
+	xprop | xmessage -title "xprop output" -file -
+elif [ "$1" = "xwininfo" ]; then
+	xwininfo | xmessage -title "xprop output" -file -
+elif [ "$1" = "tiling*" ]; then
+	xmessage no\040tiling\040for\040you.\040write\040your\040own\040script\040here. &
+	echo "no tiling for you. write your own script here."
+	return
+else
+echo "huh?"
+fi

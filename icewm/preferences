@@ -11,7 +11,7 @@ TaskBarShowCPUStatus=0
 TaskBarShowMailboxStatus=0
 TaskBarShowMEMStatus=0
 TaskBarShowNetStatus=0
-TaskBarAtTop=1
+TaskBarAtTop=0
 TaskBarShowWindowIcons=0
 ShowWindowList=0
 

@@ -15,7 +15,7 @@ key "Print"            		~/.icewm/scripts/shot del
 key "Super+Print"           ~/.icewm/scripts/shot
 key "Super+Print"           flameshot launcher
 key "Super+m"           	rhythmbox
-key "Super+f"				firefox
+key "Super+f"				chrome
 key "Super+c"				~/.icewm/scripts/xcolor.sh
 key "Super+s"				xmag
 
