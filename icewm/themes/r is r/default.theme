@@ -16,6 +16,8 @@ TitleButtonsSupported="sxmi"
 # menus
 # ColorActiveMenuItem="#545454"
 ColorActiveMenuItemText="#ffffff"
+ColorListBoxSelection="#c44995"
+ColorListBoxSelectionText="#ffffff"
 
 
 BorderSizeX=4
