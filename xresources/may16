@@ -19,8 +19,14 @@ Clock*Background: #323232
 *faceName: -misc-fixed-bold-r-normal--13-120-75-75-c-70-iso8859-5
 *font: -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-5
 
-!URxvt.boldFont: -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-5
-URxvt.font: -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-5
+Xft.lcdfilter:  lcdlight
+XTerm*faceName: BmPlus ToshibaSat 9x16:size=12
+XTerm*allowBoldFonts: false
+!xterm.vt100.renderFont: false
+
+urxvt*font: xft:MxPlus ToshibaSat 8x16:size=12
+urxvt*boldFont: xft:MxPlus ToshibaSat 8x16:size=12
+
 URxvt.scrollstyle: plain
 URxvt.scrollBar: false
 URxvt.transparent: false
@@ -32,8 +38,8 @@ URxvt.fading: 10
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.internalBorder: 4
-URxvt.background: rgba:2800/2b00/3000/aaaa
-URxvt.borderColor: rgba:2800/2b00/3000/aaaa
+URxvt.background: rgba:2800/2b00/3000/cfff
+URxvt.borderColor: rgba:2800/2b00/3000/cfff
 URxvt.fadeColor: rgba:2800/2b00/3000/0000
 
 ! black+gray
@@ -41,29 +47,29 @@ URxvt.fadeColor: rgba:2800/2b00/3000/0000
 *.color8:       #8486a4
 
 ! darkred+red
-*.color1:       #e8c8ee
-*.color9:       #e4b6d4
+*.color1:       #8e84a4
+*.color9:       #b8a8c0
 
 ! darkgreen+green
-*.color2:       #8486a4
-*.color10:      #b8c8ee
+*.color2:       #9aa8b9
+*.color10:      #c1d1df
 
 ! darkyellow+yellow
-*.color3:       #8486a4
-*.color11:      #c8c8ee
+*.color3:       #8c8ea6
+*.color11:      #d9e1ec
 
 ! darkblue+blue
-*.color4:       #c8c8ee
-*.color12:      #c8c8ee
+*.color4:       #9496b4
+*.color12:      #8486a4
 
 ! darkpurp+purp
-*.color5:       #9496b4
-*.color13:      #c8c8ee
+*.color5:       #b9a8c0
+*.color13:      #9d84a4
 
 ! darkcyan+cyan
 *.color6:       #b4b6d4
 *.color14:      #c8c8ee
 
 ! lightgray+white
-*.color7:       #bed2ea
+*.color7:       #b8c8ee
 *.color15:      #ffffff
