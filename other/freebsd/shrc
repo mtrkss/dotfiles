@@ -14,8 +14,8 @@ set -o emacs
 
 PS1="\w→ "
 
+# PS1="\w\u→"
 
-alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias h='fc -l'
 
@@ -32,13 +32,13 @@ alias g='egrep -i'
 #alias pkg='sudo pkg'
 alias pkg-i='sudo pkg inst'
 alias pkg-r='sudo pkg remove'
-alias pkg-inf='pkg info'
-alias pkg-upg='sudo pkg upgrade'
-alias pkg-upd='sudo pkg update'
+alias pkg-if='pkg info'
+alias pkg-ug='sudo pkg upgrade'
+alias pkg-ud='sudo pkg update'
 alias pkg-s='pkg search'
 alias mountlin='sudo mount -t ext2fs'
 alias service='sudo service'
-alias ch!=$HOME/.icewm/scripts/blued/ch.sh
+alias ch!=$HOME/apps/scripts/ch
 alias kldload='sudo kldload'
 alias terry='fortune terry'
 alias troll='fortune troll'
@@ -64,3 +64,8 @@ alias history='fc -l'
 # Fix home/del for mobaxterm
 bind ^[[5~ ed-move-to-beg
 bind ^[[6~ ed-move-to-end
+
+!macs(){
+set -o emacs
+printf "Mode set to emacs!\n"
+}

@@ -1,4 +1,0 @@
-#!/bin/sh
-#---RM---
-icesh -f sizeto 1904 1064 right
-icesh -f move 1924 0

@@ -1,5 +1,7 @@
-## dotfiles
+### go off my playground
 
-just some dotfiles i guess? nothing special, nothing too exciting, just some IceWM themes and xresources.
+<p><img src="other/goaway.jpg"/></p>
 
-*(also some scripts)*
+the effects of the exposure to my dotfiles may include brainrot, migraines, forgetting how to code in java and more. proceed with caution.
+
+basically, you are not welcome here. go explore someone else's dotfiles.

@@ -38,7 +38,7 @@ _slg=(
 	"OpenSUS"
 	"no"
 	"gnetmoo"
-	"https://github.com/Amog-OS/AmogOS commit 4f503a0"
+	"https://github.com/Amog-OS/AmogOS/commits/4f503a0"
 	"run sudo cryptsetup luksErase /dev/sda for uhhhhhh"
 	"The major feature for the release is tight integration between the package
 > manager and systemd. After much discussion about how best to perform

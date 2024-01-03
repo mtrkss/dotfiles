@@ -91,7 +91,7 @@ DesktopBackgroundCenter=0
 DesktopBackgroundFill=1
 DesktopBackgroundImage="v4_day.png"
 
-# fonts, full xft names for netbsd support. if they aren't displaying correctly, replace them with just "unifont"
+# fonts.
 ActiveWorkspaceFontNameXft =  	"Unifont:size=12:antialias=false:hinting=false"
 NormalWorkspaceFontNameXft = 	"Unifont:size=12:antialias=false:hinting=false"
 TitleFontNameXft	   	   = 	"Unifont:size=12:antialias=false:hinting=false"

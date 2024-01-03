@@ -1,0 +1,62 @@
+ThemeDescription="no_[cce]"
+
+ThemeAuthor="https://github.com/mtrkss"
+
+ShowMenuButtonIcon=0
+Look=flat
+TitleBarHeight=23
+TitleBarJustify=50
+
+Gradients="buttonI.xpm"
+
+TitleButtonsLeft="s"
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+# menus
+ColorNormalMenu="#282b30"
+ColorActiveMenuItem="#2f343f" # this adds the border
+ColorNormalMenuItemText="#c8c8ee"
+ColorActiveMenuItemText="#282b30"
+ColorListBoxSelection="#2f343f"
+ColorListBoxSelectionText="#ffffff"
+
+BorderSizeX=2
+BorderSizeY=2
+DlgBorderSizeX=3
+DlgBorderSizeY=3
+ColorNormalBorder="#2f343f"
+ColorActiveBorder="#2f343f"
+ColorNormalButton="#282b30"
+TaskbuttonIconOffset=10
+
+# titlebar
+ColorNormalTitleBar="#282b30"
+ColorActiveTitleBar="#c8c8ee"
+ColorNormalTitleBarText="#c8c8ee"
+ColorActiveTitleBarText="#282b30"
+#ColorActiveTitleBarShadow="#323232"
+#ColorActiveTitleBarShadow="#323232"
+
+# movestatus
+ColorMoveSizeStatus="#282b30"
+ColorMoveSizeStatusText="#c8c8ee"
+
+# wallpaper
+DesktopBackgroundCenter=0
+DesktopBackgroundFill=1
+DesktopBackgroundImage="bg.png" # provide one yourself.
+
+RolloverButtonsSupported=1
+
+# fonts
+TitleFontNameXft		   = Spleen:size=12
+MenuFontNameXft	           = Spleen:size=12
+MinimizedWindowFontNameXft = Spleen:size=12
+ActiveButtonFontNameXft    = Spleen:size=12
+NormalButtonFontNameXft    = Spleen:size=12
+ListBoxFontNameXft         = Spleen:size=12
+LabelFontNameXft		   = Spleen:size=12
+StatusFontNameXft          = Spleen:size=12
+ToolTipFontNameXft         = Spleen:size=12
+QuickSwitchFontNameXft     = Spleen:size=18

@@ -3,7 +3,7 @@
  */
 
 /*-
- * SPDX-License-Identifier: BSD-2-Clause-FreeBSD
+ * SPDX-License-Identifier: BSD-2-Clause
  *
  * Copyright (c) 2001 Maksim Yevmenkin <m_evmenkin@yahoo.com>
  * All rights reserved.
@@ -30,7 +30,6 @@
  * SUCH DAMAGE.
  *
  * $Id: ng_hci.h,v 1.2 2003/03/18 00:09:37 max Exp $
- * $FreeBSD$
  */
 
 /*
@@ -115,8 +114,6 @@
 #define NG_HCI_LMP_FLOW_CONTROL_LAG0		0x10
 #define NG_HCI_LMP_FLOW_CONTROL_LAG1		0x20
 #define NG_HCI_LMP_FLOW_CONTROL_LAG2		0x40
-/* ------------------- byte 6 --------------------*/
-#define NG_HCI_LMP_SIMPLE_SECURE_CONNECT	0x08
 
 /* Link types */
 #define NG_HCI_LINK_SCO				0x00 /* Voice */
@@ -863,30 +860,6 @@ typedef struct {
 } __attribute__ ((packed)) ng_hci_read_clock_offset_cp;
 /* No return parameter(s) */
 
-#define NG_HCI_IO_CAPABILITY_REQUEST_REPLY	0x002b
-typedef struct {
-	bdaddr_t	bdaddr;
-	u_int8_t	io_capability;
-	u_int8_t	oob_data_present;
-	u_int8_t	authentication_requirements;
-} __attribute__ ((packed)) ng_hci_io_capability_request_reply_cp;
-
-typedef struct {
-	u_int8_t	status;
-	bdaddr_t	bdaddr;
-} __attribute__ ((packed)) ng_hci_io_capability_request_reply_rp;
-
-#define NG_HCI_USER_CONFIRMATION_REQUEST_REPLY 0x002c
-typedef struct {
-	bdaddr_t	bdaddr;
-} __attribute__ ((packed)) ng_hci_user_confirmation_request_reply_cp;
-
-typedef struct {
-	u_int8_t	status;
-	bdaddr_t	bdaddr;
-} __attribute__ ((packed)) ng_hci_user_confirmation_request_reply_rp;
-
-
 /**************************************************************************
  **************************************************************************
  **        Link policy commands and return parameters
@@ -1401,13 +1374,6 @@ typedef struct {
 
 typedef ng_hci_status_rp	ng_hci_write_page_scan_rp;
 
-#define NG_HCI_OCF_WRITE_SIMPLE_PAIRING 0x0056
-typedef struct {
-	u_int8_t simple_pairing; /* 1 -> enabled, 0 -> disabled */
-} __attribute__ ((packed)) ng_hci_write_simple_pairing_cp;
-
-typedef ng_hci_status_rp	ng_hcy_write_simple_pairing_rp;
-
 #define NG_HCI_OCF_READ_LE_HOST_SUPPORTED  0x6c
 typedef struct {
 	u_int8_t	status;         /* 0x00 - success */
@@ -1422,13 +1388,6 @@ typedef struct {
 } __attribute__ ((packed)) ng_hci_write_le_host_supported_cp;
 
 typedef ng_hci_status_rp	ng_hci_write_le_host_supported_rp;
-
-#define NG_HCI_OCF_WRITE_SECURE_CONNECTIONS_HOST_SUPPORT 0x7a
-typedef struct {
-	u_int8_t support; /* 0 - disabled, 1 - enabled */
-} __attribute__ ((packed)) ng_hci_write_secure_connections_host_support_cp;
-
-typedef ng_hci_status_rp ng_hci_write_secure_connections_host_support_rp;
 
 /**************************************************************************
  **************************************************************************
@@ -1927,7 +1886,6 @@ typedef struct {
 	u_int8_t	features[NG_HCI_FEATURES_SIZE]; /* LMP features bitmsk*/
 } __attribute__ ((packed)) ng_hci_read_remote_features_compl_ep;
 
-
 #define NG_HCI_EVENT_READ_REMOTE_VER_INFO_COMPL	0x0c
 typedef struct {
 	u_int8_t	status;         /* 0x00 - success */
@@ -2067,18 +2025,6 @@ typedef struct {
 	bdaddr_t	bdaddr;             /* destination address */
 	u_int8_t	page_scan_rep_mode; /* page scan repetition mode */
 } __attribute__ ((packed)) ng_hci_page_scan_rep_mode_change_ep;
-
-#define NG_HCI_EVENT_IO_CAPABILITY_REQUEST 0x31
-typedef struct {
-	bdaddr_t	bdaddr;
-} __attribute__ ((packed)) ng_hci_io_capability_request_ep;
-
-#define NG_HCI_EVENT_USER_CONFIRMATION_REQUEST 0x33
-typedef struct {
-	bdaddr_t	bdaddr;
-	u_int32_t	numeric_value;
-} __attribute__ ((packed)) ng_hci_user_confirmation_request_ep;
-
 #define NG_HCI_EVENT_LE				0x3e
 typedef struct {
 	u_int8_t	subevent_code;	
