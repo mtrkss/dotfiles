@@ -1,0 +1,8 @@
+#!/bin/sh
+xrdb ~/.Xresources
+pipewire & pipewire-pulse & wireplumber &
+wlr-randr --output HDMI-A-1 --mode 1920x1080@74.973000 --output DP-1 --mode 1920x1080@143.981003
+waybar &
+sleep 1 & urxvt -e hewwo! &
+swaybg --mode fill -i $(cat /minako/theme/img-path) &
+mpris-proxy &

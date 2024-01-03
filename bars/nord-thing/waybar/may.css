@@ -1,0 +1,31 @@
+/* a cool nord-like css palette
+
+made by mtrkss */
+
+@define-color base 	#282b30;
+@define-color light 	#3a3d42;
+@define-color text 	#dcd6f4;
+
+@define-color black 	@nordbg;
+@define-color grey1 	#8486a4;
+
+@define-color red1 	#8e84a4;
+@define-color red2 	#b8a8c0;
+
+@define-color green1 	#9aa8b9;
+@define-color green2 	#c1d1df;
+
+@define-color yellow1 	#8c8ea6;
+@define-color yellow2 	#d9e1ec;
+
+@define-color blue1 	#9496b4;
+@define-color blue2 	#8486a4;
+
+@define-color purple1 	#b9a8c0;
+@define-color purple2 	#9d84a4;
+
+@define-color cyan1 	#b4b6d4;
+@define-color cyan2 	#c8c8ee;
+
+@define-color grey2 	#b8c8ee;
+@define-color white 	#ffffff;
