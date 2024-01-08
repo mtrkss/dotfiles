@@ -1,10 +1,11 @@
 key "Super+x"            	urxvt
-key "Super+Enter"           ~/.icewm/keyscript s-enter
-key "Print"            		~/.icewm/keyscript print
-key "Super+Print"           ~/.icewm/keyscript s-print
+key "Super+Enter"           ~/.icewm/combo rofi-drun
+key "Super+Shift+Enter"     ~/.icewm/combo rofi-run
+key "Print"            		~/.icewm/combo screen-del
+key "Super+Print"           ~/.icewm/combo screen-save
 key "Super+m"           	rhythmbox
 key "Super+f"				firefox
-key "Super+c"				~/.icewm/keyscript s-c
+# key "Super+c"				~/.icewm/combo xcolor
 key "Super+s"				xmag
 
 

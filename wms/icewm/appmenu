@@ -1,0 +1,65 @@
+menu "Applications" _none_ {
+  menu "Accessories" _none_ {
+    prog "Bulk Rename" _none_ thunar --bulk-rename 
+    prog "Files" _none_ nemo 
+    prog "Kvantum Manager" _none_ kvantummanager
+    prog "compton" _none_ compton
+    prog "picom" _none_ picom
+  }
+  menu "Development" _none_ {
+    prog "GTK Demo" _none_ gtk4-demo
+    prog "Icon Browser" _none_ gtk4-icon-browser
+    prog "Node Editor" _none_ gtk4-node-editor
+    prog "Print Editor" _none_ gtk4-print-editor 
+    prog "Qt 5 Assistant" _none_ /usr/local/lib/qt5/bin/assistant
+    prog "Qt 5 D-Bus Viewer" _none_ /usr/local/lib/qt5/bin/qdbusviewer
+    prog "Qt 5 Designer" _none_ /usr/local/lib/qt5/bin/designer
+    prog "Qt 5 Linguist" _none_ /usr/local/lib/qt5/bin/linguist
+    prog "Widget Factory" _none_ gtk4-widget-factory
+  }
+  menu "Games" _none_ {
+    prog "GZDoom" _none_ gzdoom
+    prog "Snes9x" _none_ snes9x-gtk 
+    prog "SuperTuxKart" _none_ supertuxkart
+  }
+  menu "Graphics" _none_ {
+    prog "Blender" _none_ blender 
+    prog "GNU Image Manipulation Program" _none_ gimp-2.10 
+    prog "Qt 5 PixelTool" _none_ /usr/local/lib/qt5/bin/pixeltool
+  }
+  menu "Multimedia" _none_ {
+    prog "Audacious" _none_ audacious 
+    prog "Audacity" _none_ env UBUNTU_MENUPROXY=0 audacity 
+    prog "FastTracker II" _none_ fasttracker2
+    prog "OBS Studio" _none_ obs
+    prog "PulseAudio System Tray" _none_ pasystray
+    prog "PulseAudio Volume Control" _none_ pavucontrol
+    prog "SoundTracker" _none_ soundtracker 
+    prog "VLC media player" _none_ /usr/local/bin/vlc --started-from-file 
+  }
+  menu "Network" _none_ {
+    prog "Discord" _none_ discord 
+    prog "Firefox Web Browser" _none_ firefox 
+    prog "HexChat" _none_ hexchat --existing 
+    prog "Srain" _none_ srain 
+    prog "TigerVNC viewer" _none_ vncviewer
+    prog "links" _none_ links -g
+  }
+  menu "Settings" _none_ {
+    prog "Desktop Preferences" _none_ pcmanfm --desktop-pref
+    prog "File Manager Settings" _none_ thunar-settings
+    prog "GTK Settings" _none_ nwg-look
+    prog "LightDM GTK+ Greeter settings" _none_ lightdm-gtk-greeter-settings-pkexec
+    prog "Qt5 Settings" _none_ qt5ct
+    prog "Window Effects" _none_ compton-conf
+  }
+  menu "System" _none_ {
+    prog "Alacritty" _none_ alacritty
+    prog "File Manager PCManFM" _none_ pcmanfm 
+    prog "Htop" _none_ xterm -e htop
+    prog "Oracle VM VirtualBox" _none_ VirtualBox
+    prog "Thunar File Manager" _none_ thunar 
+    prog "Virtual Machine Manager" _none_ virt-manager
+    prog "XTerm" _none_ xterm
+  }
+}

@@ -1,0 +1,31 @@
+#!/bin/sh
+
+screendir="$HOME/screenshots"
+
+case "$1" in
+	"mkmenu")
+		xdgmenumaker -f icewm > $HOME/.icewm/appmenu &&
+		icewm --restart
+		$HOME/.fehbg
+	;;
+	"screen-save")
+		[ -d "$screendir" ] || mkdir -pv "$screendir"
+		scrot -s -f -l style=solid,color=#abb0ba,width=2 "$screendir"/img.png -e 'xclip -selection clipboard -target image/png -i $f'
+	;;
+	"screen-del")
+		scrot -s -f -l style=solid,color=#fbb0ba,width=2 /tmp/$(head -c10 /dev/urandom|md5sum|head -c10).png -e 'xclip -selection clipboard -target image/png -i $f && rm -f $f'
+	;;
+	"polybar-start")
+		polybar toptray &
+		polybar taskbar
+	;;
+	"rofi-drun")
+		rofi -show drun -show-icons
+	;;
+	"rofi-run")
+		rofi -show run -show-icons
+	;;
+	*)
+		printf "Unknown Mode!\n"
+	;;
+esac

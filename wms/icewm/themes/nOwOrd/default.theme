@@ -38,7 +38,23 @@ ColorActiveTitleBarText="#282b30"
 #ColorActiveTitleBarShadow="#323232"
 #ColorActiveTitleBarShadow="#323232"
 
+# listbox
+ColorListBox="#282B30"
+ColorListBoxText="#c8c8ee"
+
+# dialog boxes
+ColorDialog="#282B30"
+ColorLabelText="#c8c8ee"
+ColorNormalButton="#2f343f"
+ColorNormalButtonText="#c8c8ee"
+
+#Quick switch
+ColorQuickSwitch="#282B30"
+ColorQuickSwitchActive="#c8c8ee"
+ColorQuickSwitchText="#c8c8ee"
+
 # movestatus
+
 ColorMoveSizeStatus="#282b30"
 ColorMoveSizeStatusText="#c8c8ee"
 
@@ -50,13 +66,13 @@ DesktopBackgroundImage="bg.png" # provide one yourself.
 RolloverButtonsSupported=1
 
 # fonts
-TitleFontNameXft		   = Spleen:size=12
-MenuFontNameXft	           = Spleen:size=12
-MinimizedWindowFontNameXft = Spleen:size=12
-ActiveButtonFontNameXft    = Spleen:size=12
-NormalButtonFontNameXft    = Spleen:size=12
-ListBoxFontNameXft         = Spleen:size=12
-LabelFontNameXft		   = Spleen:size=12
-StatusFontNameXft          = Spleen:size=12
-ToolTipFontNameXft         = Spleen:size=12
-QuickSwitchFontNameXft     = Spleen:size=18
+TitleFontNameXft		   = "Spleen 8x16"
+MenuFontNameXft	           = "Spleen 8x16"
+MinimizedWindowFontNameXft = "Spleen 8x16"
+ActiveButtonFontNameXft    = "Spleen 8x16"
+NormalButtonFontNameXft    = "Spleen 8x16"
+ListBoxFontNameXft         = "Spleen 8x16"
+LabelFontNameXft		   = "Spleen 8x16"
+StatusFontNameXft          = "Spleen 8x16"
+ToolTipFontNameXft         = "Spleen 8x16"
+QuickSwitchFontNameXft     = "Spleen 8x16"

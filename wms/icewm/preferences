@@ -1,7 +1,7 @@
 r=0r=0
 ## vm only
-# DoubleBuffer=0
-
+DoubleBuffer=1
+ShowTaskBar=0
 TaskBarShowWorkspaces=0 
 TaskBarShowWindowListMenu=0
 TaskBarShowShowDesktopButton=1
@@ -14,6 +14,8 @@ TaskBarShowNetStatus=0
 TaskBarAtTop=0
 TaskBarShowWindowIcons=0
 ShowWindowList=0
+
+MinimizeToDesktop=0
 
 SnapMove=0
 

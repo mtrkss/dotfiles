@@ -1,0 +1,6 @@
+#!/bin/sh
+$HOME/.fehbg &
+$HOME/.icewm/combo polybar-start &
+$HOME/.icewm/combo mkmenu &
+# pasystray & xcompmgr &
+/usr/local/libexec/polkit-gnome-authentication-agent-1 &
