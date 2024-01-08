@@ -3,24 +3,24 @@ xeyes*center: #ffffff
 xeyes*foreground: #2f2f2f
 xeyes*outline: #2f2f2f
 !clock fix
-xclock*hourColor: #ffffff
-xclock*minuteColor: #ffffff
-xclock*minorColor: #ffffff
-xclock*majorColor: #ffffff
-Clock*hour: #ffffff
-Clock*minute: #ffffff
-Clock*jewel: #ffffff
+xclock*hourColor: #dcd6e4
+xclock*minuteColor: #dcd6e4
+xclock*minorColor: #dcd6e4
+xclock*majorColor: #dcd6e4
+Clock*hour: #dcd6e4
+Clock*minute: #dcd6e4
+Clock*jewel: #dcd6e4
 Clock*BorderColor: #323232
 Clock*Background: #323232
 
 *.foreground:   #dcd6e4
-*.background:   #282b30
+*.background:   #202226
 *.cursorColor:  #dcd6e4
 *faceName: -misc-fixed-bold-r-normal--13-120-75-75-c-70-iso8859-5
 *font: -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-5
 
 Xft.lcdfilter:  lcdlight
-XTerm*faceName: BmPlus ToshibaSat 9x16:size=12
+XTerm*faceName: MxPlus ToshibaSat 8x16:size=12
 XTerm*allowBoldFonts: false
 !xterm.vt100.renderFont: false
 
@@ -37,10 +37,8 @@ URxvt.thickness: 5
 URxvt.fading: 10
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
-URxvt.internalBorder: 4
-URxvt.background: rgba:2800/2b00/3000/cfff
-URxvt.borderColor: rgba:2800/2b00/3000/cfff
-URxvt.fadeColor: rgba:2800/2b00/3000/0000
+URxvt.internalBorder: 12
+URxvt.fadeColor: rgba:2000/2200/2600/0000
 
 ! black+gray
 *.color0:       #282b30

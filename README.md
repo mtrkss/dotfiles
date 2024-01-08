@@ -1,4 +1,4 @@
-### go off my playground
+### get off my playground
 
 <p><img src="other/goaway.jpg"/></p>
 

@@ -8,14 +8,14 @@
 . $HOME/.profile
 
 export PAGER=less
-export EDITOR=micro
-#PS1='${PWD##*/}→ '
+export EDITOR=nano
+#PS1='${PWD##*/}? '
 set -o emacs
 
-PS1="\w→ "
+PS1="\w?"
 
-# PS1="\w\u→"
 
+alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias h='fc -l'
 
@@ -32,19 +32,13 @@ alias g='egrep -i'
 #alias pkg='sudo pkg'
 alias pkg-i='sudo pkg inst'
 alias pkg-r='sudo pkg remove'
-alias pkg-if='pkg info'
-alias pkg-ug='sudo pkg upgrade'
-alias pkg-ud='sudo pkg update'
+alias pkg-inf='pkg info'
+alias pkg-upg='sudo pkg upgrade'
+alias pkg-upd='sudo pkg update'
 alias pkg-s='pkg search'
 alias mountlin='sudo mount -t ext2fs'
 alias service='sudo service'
-alias ch!=$HOME/apps/scripts/ch
 alias kldload='sudo kldload'
-alias terry='fortune terry'
-alias troll='fortune troll'
-alias ken='fortune ken'
-alias rob='fortune rob'
-alias aiju='fortune aiju'
 
 # be paranoid :3
 alias cp='cp -ip'
@@ -59,13 +53,7 @@ bind ^[[B ed-search-next-history
 # # ctrl+arrow allow to jump from words to words
 bind "\\e[1;5C" em-next-word
 bind "\\e[1;5D" ed-prev-word
-alias history='fc -l'
 
 # Fix home/del for mobaxterm
 bind ^[[5~ ed-move-to-beg
 bind ^[[6~ ed-move-to-end
-
-!macs(){
-set -o emacs
-printf "Mode set to emacs!\n"
-}
