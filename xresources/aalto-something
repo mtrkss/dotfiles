@@ -1,0 +1,71 @@
+! for now this is just the cone theme that i deleted earlier.
+!xeyes fix
+xeyes*center: #ffffff
+xeyes*foreground: #2f2f2f
+xeyes*outline: #2f2f2f
+!clock fix
+xclock*.hourColor: #2d2a26
+xclock*.minuteColor: #2d2a26
+xclock*.minorColor: #2d2a26
+xclock*.majorColor: #2d2a26
+
+*.foreground:   #645240
+*.background:   #edded2
+*.cursorColor:  #4d4a46
+!Xft.lcdfilter:  lcdlight
+XTerm*faceName: BmPlus ToshibaSat 9x16:size=12
+XTerm*allowBoldFonts: false
+!xterm.vt100.renderFont: false
+
+urxvt*font: xft:MxPlus ToshibaTxL2 8x16:size=12
+urxvt*boldFont: xft:MxPlus ToshibaTxL2 8x16:size=12
+
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt.transparent: false
+URxvt.borderLess: false
+URxvt.scrollBar_right: true
+URxvt.depth: 32
+URxvt.thickness: 5
+URxvt.fading: 10
+URxvt.letterSpace: 0
+URxvt.lineSpace: 2
+URxvt.internalBorder: 4
+URxvt.fadeColor: #c2b3a7
+
+URxvt.backgroundPixmap: /plan/rice/songti/x16.xpm;style=tiled
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: true
+
+
+! black+gray
+*.color0:       #35312c
+*.color8:       #ceb9a9
+
+! darkred+red
+*.color1:       #bf8664
+*.color9:       #c27141
+
+! darkgreen+green
+*.color2:       #a2a064
+*.color10:      #a3a050
+
+! darkyellow+yellow
+*.color3:       #beb280
+*.color11:      #bb9374
+
+! darkblue+blue
+*.color4:       #aca881
+*.color12:      #97a070
+
+! darkpurp+purp
+*.color5:       #b2867f
+*.color13:      #aa7680
+
+! darkcyan+cyan
+*.color6:       #a9a17a
+*.color14:      #989061
+
+! lightgray+white
+*.color7:       #ceb9a9
+*.color15:      #edded2
