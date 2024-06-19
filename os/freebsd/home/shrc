@@ -5,26 +5,25 @@ export EDITOR=vim
 set -o emacs
 PS1="\w & "
 
+alias h='fc -l'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias h='fc -l'
-alias j=jobs
-alias m="$PAGER"
-alias ll='ls -laFo'
-alias l='ls -lo'
-alias 'cd..'='cd ..'
+alias g='grep -Ei'
+alias l='ls -goph'
+alias ll='ls -alph'
 alias cls='clear'
-alias g='egrep -i'
+alias cd..='cd ..'
+alias cp='cp -ip'
+alias mv='mv -i'
+alias mv!="/bin/mv"
+alias cp!="/bin/cp"
+
 alias mount='doas mount'
 alias mountlin='mount -t ext2fs'
 alias service='doas service'
 alias kldload='doas kldload'
 alias kldunload='doas kldunload'
 alias sysctl='doas sysctl'
-alias cp='cp -ip'
-alias mv='mv -i'
-alias mv!="/bin/mv"
-alias cp!="/bin/cp"
 
 bind ^[[A ed-search-prev-history
 bind ^[[B ed-search-next-history

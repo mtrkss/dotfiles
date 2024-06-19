@@ -2,13 +2,13 @@
 programs.bash = {
 enable = true;
 bashrcExtra = ''
-PS1='$USER:\w % '
+PS1='\w & '
 PAGER=less
 EDITOR=vim
 
 alias grep='grep --color=tty'
 alias g='grep -Ei'
-alias cls='tput clear'
+alias cls='clear'
 alias h='fc -l'
 alias ls='ls --color=tty'
 alias l='ls -goph'
