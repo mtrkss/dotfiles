@@ -1,0 +1,16 @@
+key "Super+x"            	urxvt
+key "Super+Enter"           ~/.icewm/combo rofi-drun
+key "Super+Shift+Enter"     ~/.icewm/combo rofi-run
+key "Print"            		~/.icewm/combo screen-del
+key "Super+Print"           ~/.icewm/combo screen-save
+key "Super+m"           	rhythmbox
+key "Super+f"				firefox
+# key "Super+c"				~/.icewm/combo xcolor
+key "Super+s"				xmag
+
+
+key "XF86AudioLowerVolume"  amixer sset Master 5%-
+key "XF86AudioRaiseVolume"  amixer sset Master 5%+
+key "XF86AudioMute"         amixer sset Master toggle
+key "XF86Search"            xdg-open https://www.duckduckgo.com
+key "XF86Calculator"        /bin/sh -c "gnome-calculator || xcalc || ( type bc >/dev/null 2>&1 && xterm -e bc -l)"

@@ -1,0 +1,73 @@
+ThemeDescription="end of ice"
+
+ThemeAuthor="mtrkss"
+
+ShowMenuButtonIcon=0
+Look=flat
+TitleBarHeight=19
+TitleBarJustify=50
+
+Gradients="buttonI.xpm"
+
+TitleButtonsLeft="s"
+TitleButtonsRight="mi"
+TitleButtonsSupported="sxmi"
+
+# menus
+# ColorActiveMenuItem="#545454"
+ColorActiveMenuItemText="#ffffff"
+ColorListBoxSelection="#f20058"
+ColorListBoxSelectionText="#ffffff"
+
+BorderSizeX=4
+BorderSizeY=4
+DlgBorderSizeX=3
+DlgBorderSizeY=3
+ColorNormalBorder="#d3d3d3"
+ColorActiveBorder="#d3d3d3"
+ColorNormalButton="#909090"
+TaskbuttonIconOffset=10
+
+# titlebar
+ColorNormalTitleBar="#808080"
+ColorActiveTitleBar="#f20058"
+ColorNormalTitleBarText="#e0e0e0"
+ColorActiveTitleBarText="#e0e0e0"
+ColorActiveTitleBarShadow="#323232"
+ColorActiveTitleBarShadow="#323232"
+
+# movestatus
+ColorMoveSizeStatus="#323232"
+ColorMoveSizeStatusText="#ececec"
+
+# run field (ctrl+alt+space)
+ColorInputSelection="#f20058"
+ColorInputSelectionText="#ffffff"
+
+# wallpaper
+DesktopBackgroundCenter=0
+DesktopBackgroundFill=1
+DesktopBackgroundImage="hyi.png"
+
+# clok
+ColorClock="#c0c0c0"
+ColorClockText="#000000"
+RolloverButtonsSupported=1
+
+# fonts
+ActiveWorkspaceFontNameXft =  	"BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+NormalWorkspaceFontNameXft = 	"BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+TitleFontNameXft		   = 	"BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+MenuFontNameXft	           =    "BmPlus ToshibaSat 8x16:size=12:antialias=false:hinting=false"
+MinimizedWindowFontNameXft =    "BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+ActiveButtonFontNameXft    =    "BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+NormalButtonFontNameXft    =    "BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+QuickSwitchFontNameXft     =    "BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+ListBoxFontNameXft         =    "BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+LabelFontNameXft		   =	"BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+StatusFontNameXft          =    "BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+ToolTipFontNameXft         =    "BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+ActiveTaskBarFontNameXft   =    "BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+NormalTaskBarFontNameXft   =    "BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+ClockFontNameXft           =    "BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"
+ApmFontNameXft             =    "BmPlus ToshibaSat 8x14:size=12:antialias=false:hinting=false"

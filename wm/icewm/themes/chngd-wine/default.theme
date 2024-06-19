@@ -1,0 +1,111 @@
+ThemeDescription="a theme i guess."
+
+ThemeAuthor="mtwk"
+
+Look=flat
+#TitleBarHeight=18
+TitleBarHeight=0
+TitleBarJustify=50
+
+TitleButtonsLeft=""
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+# left out if you're using netbsd
+ColorNormalBorder="#804b62"
+ColorActiveBorder="#ac6b89"
+ColorDialog="#24273a"
+
+# Something something unused stuff left out for support
+#ColorActiveTitleBar="#24273a"
+ColorNormalTitleBar="#24273a"
+ColorNormalButton="#303446"
+ColorNormalButtonText="#f2d5cf"
+ColorNormalTitleButton="#303446"
+ColorNormalTitleBarText="#f2d5cf"
+ColorActiveTitleBarText="#f2d5cf"
+
+#ColorActiveTitleBarShadow="#616161"
+#ColorInactiveTitleBarShadow="#4d4d4d"
+
+# Usual menus
+ColorNormalMenu="#2e1d22" 
+ColorActiveMenuItem="#562f40"
+ColorNormalMenuItemText="#e4aecc"
+ColorActiveMenuItemText="#e7a0ae"
+ColorDisabledMenuItemText="#e7a0ae"
+
+# Move status/workspace label
+ColorMoveSizeStatus="#282828"
+ColorMoveSizeStatusText="#eab9d5"
+ColorInputSelection="#e0e0e0" # who dis
+
+# Taskbar
+ColorDefaultTaskBar="#303446"
+ColorNormalTaskBarApp="#303446"
+ColorMinimizedTaskBarApp="#303446"
+ColorActiveTaskBarApp="#383a4b"
+ColorNormalTaskBarAppText="#eab9d5"
+ColorMinimizedTaskBarAppText="#eab9d5"
+ColorActiveTaskBarAppText="#eab9d5"
+
+# Idk what this is, leaving it here.
+ColorListBoxText="#eab9d5"
+ColorListBoxSelection="#eab9d5"
+ColorListBoxSelectionText="#282828"
+
+# Run field
+ColorInput="#282828"
+ColorInputText="#eab9d5"
+ColorInputSelection="#eab9d5"
+ColorInputSelectionText="#282828"
+
+# Dialog boxes
+ColorDialog="#303446"
+ColorLabel="#e0e0e0"
+ColorLabelText="#eab9d5"
+
+# Tooltips
+ColorToolTip="#303446"
+ColorToolTipText="#eab9d5"
+
+# Scrollbars
+ColorScrollBar="#303446"
+ColorScrollBarSlider="#eab9d5"
+ColorScrollBarButton="#eab9d5"
+ColorScrollBarButtonArrow="#311a27"
+ColorScrollBarInactiveArrow="#311a27"
+
+# Quick switch
+ColorQuickSwitch="#303446"
+ColorQuickSwitchActive="#383a4b"
+ColorQuickSwitchText="#eab9d5"
+
+# Clock
+ColorClock="#303446"
+ColorClockText="#eab9d5"
+RolloverButtonsSupported=1
+
+# BG
+DesktopBackgroundCenter=0
+DesktopBackgroundFill=1
+DesktopBackgroundImage="v4_day.png"
+
+# fonts.
+ActiveWorkspaceFontNameXft =  	"Unifont:size=12:antialias=false:hinting=false"
+NormalWorkspaceFontNameXft = 	"Unifont:size=12:antialias=false:hinting=false"
+TitleFontNameXft	   	   = 	"Unifont:size=12:antialias=false:hinting=false"
+MenuFontNameXft	           =    "Unifont:size=12:antialias=false:hinting=false"
+MinimizedWindowFontNameXft =    "Unifont:size=12:antialias=false:hinting=false"
+ActiveButtonFontNameXft    =    "Unifont:size=12:antialias=false:hinting=false"
+NormalButtonFontNameXft    =    "Unifont:size=12:antialias=false:hinting=false"
+QuickSwitchFontNameXft     =    "Unifont:size=12:antialias=false:hinting=false"
+ListBoxFontNameXft         =    "Unifont:size=12:antialias=false:hinting=false"
+LabelFontNameXft		   =	"Unifont:size=12:antialias=false:hinting=false"
+StatusFontNameXft          =    "Unifont:size=12:antialias=false:hinting=false"
+ToolTipFontNameXft         =    "Unifont:size=12:antialias=false:hinting=false"
+ActiveTaskBarFontNameXft   =    "Unifont:size=12:antialias=false:hinting=false"
+NormalTaskBarFontNameXft   =    "Unifont:size=12:antialias=false:hinting=false"
+ClockFontNameXft           =    "Unifont:size=12:antialias=false:hinting=false"
+ApmFontNameXft             =    "Unifont:size=12:antialias=false:hinting=false"
+

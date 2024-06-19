@@ -1,0 +1,14 @@
+prog URxvt _none_ urxvt
+prog kitty _none_ kitty
+prog Xterm _none_ xterm
+prog Gimp _none_ gimp
+prog Srain _none_ srain
+prog Files _none_ pcmanfm
+include ~/.icewm/appmenu
+
+menu Stuff _none_ {
+	menu ice-hacks _none_ {
+	prog reload _none_ ~/.icewm/combo mkmenu
+	prog fehbg _none_ ~/.fehbg
+	}
+}

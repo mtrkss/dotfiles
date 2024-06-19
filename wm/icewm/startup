@@ -1,0 +1,11 @@
+#!/bin/sh
+$HOME/.fehbg &
+$HOME/.icewm/combo mkmenu &
+xrandr --output DisplayPort-0 --mode 1920x1080 --rate 144
+xrandr --output HDMI-A-0 --mode 1920x1080 --rate 75
+pasystray &
+nm-applet &
+
+if (. /etc/os-release;echo $PRETTY_NAME|grep Nix)
+then /nix/store/*polkit-gnome*/libexec/polkit-gnome-authentication-agent-1 &
+fi

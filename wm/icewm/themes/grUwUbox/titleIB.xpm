@@ -1,0 +1,7 @@
+/* XPM */
+static char * titleIB_xpm[] = {
+"1 2 2 1",
+" 	c #2E2B28",
+".	c #1E1E1C",
+" ",
+"."};

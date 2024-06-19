@@ -1,0 +1,9 @@
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$HOME/bin:$HOME/.local/bin:$HOME/.cargo/bin;export PATH
+EDITOR=vim;export EDITOR
+PAGER=less;export PAGER
+ENV=$HOME/.shrc; export ENV
+if [ "$PWD" != "$HOME" ]&&[ "$PWD" -ef "$HOME" ];then cd;fi
+if which qt6ct >/dev/null 2>/dev/null
+then QT_QPA_PLATFORMTHEME=qt6ct;fi
+GTK_OVERLAY_SCROLLING=0
+export QT_QPA_PLATFORMTHEME GTK_OVERLAY_SCROLLING PATH

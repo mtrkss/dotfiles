@@ -1,0 +1,16 @@
+TaskBarShowWorkspaces=0
+TaskBarShowStartMenu=0
+TaskBarShowShowDesktopButton=0
+TaskBarTaskGrouping=1
+TaskBarShowWindowListMenu=0
+TaskBarAtTop=0
+ShowWindowList=0
+TaskbarButtonWidthDivisor=7
+SnapMove=0
+TaskBarShowAPMStatus=0
+TaskBarShowAPMAuto=0
+
+TaskBarShowCPUStatus=0
+TaskBarShowMailboxStatus=0
+TaskBarShowMEMStatus=0
+TaskBarShowNetStatus=0

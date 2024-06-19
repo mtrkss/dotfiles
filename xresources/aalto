@@ -1,0 +1,72 @@
+! for now this is just the cone theme that i deleted earlier.
+!xeyes fix
+xeyes*center: #ffffff
+xeyes*foreground: #2f2f2f
+xeyes*outline: #2f2f2f
+!clock fix
+xclock*.hourColor: #e2d3c7
+xclock*.minuteColor: #e2d3c7
+xclock*.minorColor: #e2d3c7
+xclock*.majorColor: #e2d3c7
+Clock*hour: #e2d3c7
+Clock*minute: #e2d3c7
+Clock*jewel: #e2d3c7
+Clock*BorderColor: #a9adaa
+Clock*Background: #2f2f2f
+
+*.foreground:   #e2d3c7
+*.background:   #2d2a26
+*.cursorColor:  #eedcb9
+*faceName: unifont
+Xft.lcdfilter:  lcdlight
+XTerm*faceName: BmPlus ToshibaSat 9x16:size=12
+XTerm*allowBoldFonts: false
+!xterm.vt100.renderFont: false
+
+urxvt*font: xft:MxPlus ToshibaSat 8x16:size=12
+urxvt*boldFont: xft:MxPlus ToshibaSat 8x16:size=12
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt.transparent: false
+URxvt.borderLess: false
+URxvt.scrollBar_right: true
+URxvt.depth: 32
+URxvt.thickness: 5
+URxvt.fading: 10
+URxvt.letterSpace: -0.9
+URxvt.lineSpace: 0
+URxvt.internalBorder: 4
+URxvt.borderColor: #35312c
+URxvt.fadeColor: #35312c
+
+! black+gray
+*.color0:       #35312c
+*.color8:       #b0a792
+
+! darkred+red
+*.color1:       #dfa684
+*.color9:       #e29161
+
+! darkgreen+green
+*.color2:       #c2c084
+*.color10:      #c3c070
+
+! darkyellow+yellow
+*.color3:       #d5c88e
+*.color11:      #d5c373
+
+! darkblue+blue
+*.color4:       #ccc8a1
+*.color12:      #b7c090
+
+! darkpurp+purp
+*.color5:       #d2a69f
+*.color13:      #ca96a0
+
+! darkcyan+cyan
+*.color6:       #c9c19a
+*.color14:      #b8b081
+
+! lightgray+white
+*.color7:       #d5c5b7
+*.color15:      #e2d3c7

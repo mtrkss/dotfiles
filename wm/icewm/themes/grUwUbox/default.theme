@@ -1,0 +1,89 @@
+ThemeDescription="grUwUbox"
+
+ThemeAuthor="https://github.com/mtrkss"
+
+ShowMenuButtonIcon=0
+Look=flat
+TitleBarHeight=23
+TitleBarJustify=50
+Gradients="titleIS.xpm titleIT.xpm titleIB.xpm buttonI.xpm"
+
+TitleButtonsLeft="s"
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+# menus
+ColorNormalMenu="#1e1e1c"
+ColorActiveMenuItem="#2e2d2c" # this adds the border
+ColorNormalMenuItemText="#ebdbb2"
+ColorActiveMenuItemText="#1e1e1c"
+
+BorderSizeX=2
+BorderSizeY=2
+DlgBorderSizeX=3
+DlgBorderSizeY=3
+ColorNormalBorder="#1e1e1c"
+ColorActiveBorder="#1e1e1c"
+ColorNormalButton="#1e1e1c"
+TaskbuttonIconOffset=10
+
+# titlebar
+ColorNormalTitleBar="#1e1e1c"
+ColorActiveTitleBar="#ebdbb2"
+ColorNormalTitleBarText="#ebdbb2"
+ColorActiveTitleBarText="#1e1e1c"
+
+# listbox
+ColorListBox="#1e1e1c"
+ColorListBoxText="#ebdbb2"
+ColorListBoxSelection="#ebdbb2"
+ColorListBoxSelectionText="#1e1e1c"
+
+#taskbar
+ColorDefaultTaskBar="#1e1e1c"
+ColorNormalTaskBarApp="#1e1e1c"
+ColorNormalTaskBarAppText="#ebdbb2"
+ColorActiveTaskBarApp="#2e2d2c"
+ColorActiveTaskBarAppText="#ebdbb2"
+ColorMinimizedTaskBarApp="#1e1d1c"
+ColorMinimizedTaskBarAppText="#ebdbb2"
+
+ColorClock="#1e1e1c"
+ColorClockText="#ebdbb2"
+
+# dialog boxes
+ColorDialog="#1e1e1c"
+ColorLabelText="#ebdbb2"
+ColorNormalButton="#1e1e1c"
+ColorNormalButtonText="#ebdbb2"
+
+#Quick switch
+ColorQuickSwitch="#1e1e1c"
+ColorQuickSwitchActive="#ebdbb2"
+ColorQuickSwitchText="#ebdbb2"
+
+# movestatus
+ColorMoveSizeStatus="#1e1e1c"
+ColorMoveSizeStatusText="#ebdbb2"
+
+# wallpaper
+DesktopBackgroundCenter=0
+DesktopBackgroundFill=1
+DesktopBackgroundImage="bg.png" # provide one yourself.
+
+RolloverButtonsSupported=1
+
+# fonts
+TitleFontNameXft		   = "Spleen 8x16"
+MenuFontNameXft	           = "Spleen 8x16"
+MinimizedWindowFontNameXft = "Spleen 8x16"
+ActiveButtonFontNameXft    = "Spleen 8x16"
+NormalButtonFontNameXft    = "Spleen 8x16"
+ListBoxFontNameXft         = "Spleen 8x16"
+LabelFontNameXft		   = "Spleen 8x16"
+StatusFontNameXft          = "Spleen 8x16"
+ToolTipFontNameXft         = "Spleen 8x16"
+QuickSwitchFontNameXft     = "Spleen 8x16"
+ClockFontNameXft = "Spleen 8x16"
+NormalTaskBarFontNameXft = "Spleen 8x16"
+ActiveTaskBarFontNameXft = "Spleen 8x16"

@@ -1,0 +1,105 @@
+ThemeDescription="furry theme styled around a cover art+wallpaper from halley labs"
+# note that this theme is just fixed+recolored gruvbox cone theme, so don't expect much.
+
+ThemeAuthor="mtwk/mtrkss"
+
+Look=flat
+#TitleBarHeight=17
+TitleBarHeight=17
+#TitleBarJustify=55
+TitleBarJustify=0
+
+TitleButtonsLeft=""
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+BorderSizeX=8
+BorderSizeY=10
+#CornerSizeX=0
+#CornerSizeY=0
+#DlgBorderSizeX=12
+#DlgBorderSizeY=12
+
+ColorNormalBorder="#282B30"
+ColorActiveBorder="#272C36"
+ColorDialog="#1F2229"
+
+ColorActiveTitleBar="#272C36"
+ColorNormalTitleBar="#282B30"
+ColorNormalButton="#272C36"
+ColorNormalButtonText="#ffffff"
+ColorNormalTitleButton="#282B30"
+ColorNormalTitleBarText="#e1e7f3"
+ColorActiveTitleBarText="#e1e7f3"
+# eh
+#ColorActiveTitleBarShadow="#616161"
+#ColorInactiveTitleBarShadow="#4d4d4d"
+
+ColorNormalMenu="#313744"
+ColorActiveMenuItem="#414753"
+ColorNormalMenuItemText="#e1e7f3"
+ColorActiveMenuItemText="#e1e7f3"
+ColorDisabledMenuItemText="#818793"
+
+ColorMoveSizeStatus="#e0e0e0"
+ColorMoveSizeStatusText="#323232"
+ColorInputSelection="#e0e0e0"
+
+#taskbar
+ColorDefaultTaskBar="#393F4B"
+ColorNormalTaskBarApp="#393F4B"
+ColorNormalTaskBarAppText="#e1e7f3"
+ColorActiveTaskBarApp="#3C424E"
+ColorActiveTaskBarAppText="#e1e7f3"
+ColorMinimizedTaskBarApp="#393F4B"
+ColorMinimizedTaskBarAppText="#e1e7f3"
+
+#listbox
+ColorListBox="#393F4B"
+ColorListBoxText="#e1e7f3"
+ColorListBoxSelection="#414753"
+ColorListBoxSelectionText="#e1e7f3"
+
+ColorLabelText="#eaeaea"
+
+#Tooltip text
+ColorToolTip="#414753"
+ColorToolTipText="#e1e7f3"
+
+#scrollbar
+ColorScrollBar="#414753"
+ColorScrollBarSlider="#4E5565"
+ColorScrollBarButtonArrow="#818793"
+
+#Quick switch
+ColorQuickSwitch="#454E68"
+ColorQuickSwitchActive="#596178"
+ColorQuickSwitchText="#e1e7f3"
+
+ColorClock="#393F4B"
+ColorClockText="#ffffff"
+RolloverButtonsSupported=1
+
+#background parameters
+DesktopBackgroundCenter=0
+DesktopBackgroundFill=1
+DesktopBackgroundImage="bg.png"
+
+# fonts
+
+ActiveWorkspaceFontNameXft =  	Unifont
+NormalWorkspaceFontNameXft = 	Unifont
+TitleFontNameXft	   	   = 	Unifont
+MenuFontNameXft	           =    Unifont
+MinimizedWindowFontNameXft =    Unifont
+ActiveButtonFontNameXft    =    Unifont
+NormalButtonFontNameXft    =    Unifont
+QuickSwitchFontNameXft     =    Unifont
+ListBoxFontNameXft         =    Unifont
+LabelFontNameXft		   =	Unifont
+StatusFontNameXft          =    Unifont
+ToolTipFontNameXft         =    Unifont
+ActiveTaskBarFontNameXft   =    Unifont
+NormalTaskBarFontNameXft   =    Unifont
+ClockFontNameXft           =    Unifont
+ApmFontNameXft             =    Unifont

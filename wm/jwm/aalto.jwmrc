@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<JWM>
+
+<Tray x="0" y="-1" autohide="off" delay="10000" layer="above">
+	<TrayButton label="█">showdesktop</TrayButton>
+	<TaskList maxwidth="130"/>
+	<Spacer width="3"/>
+	<Clock format="%H:%M">
+		<Button mask="1">exec:xmag</Button>
+	</Clock>
+	<TrayButton label=":3"/>
+	<Spacer width="3"/>
+</Tray>
+
+<Tray valign="top" halign="right" height="25" layer="below">
+<Spacer width="3"/>
+<Dock/>
+<Spacer width="3"/>
+</Tray>
+
+<!-- <Tray x="50" y="50" layer="normal"><Swallow name="xclock">xclock</Swallow></Tray> -->
+<!-- Tray x="1970" y="50" layer="normal"><Swallow name="xclock">xclock</Swallow></Tray-->
+
+<RootMenu onroot="3" labeled="true" label="FreeBSD :3">
+	<Program label="URxvt">urxvt</Program>
+	<Program label="Files">pcmanfm</Program>
+	<Program label="GIMP">gimp</Program>
+	<Menu label="Apps">
+		<Include>exec: xdgmenumaker -nf jwm</Include>
+	</Menu>
+	<Menu icon="folder" label="Utilities">
+		<Program label="XTerm">xterm</Program>
+		<Program label="XFE">xfe</Program>
+		<Program label="Fonts">xfontsel</Program>
+		<Program label="Window Properties">xprop | xmessage -file -</Program>
+		<Program label="Window Information">xwininfo | tail -n+6 |xmessage -file -</Program>
+	</Menu>
+	<Menu label="JWM">
+		<Restart label="Restart JWM"/>
+		<Exit label="Exit JWM"/>
+		<Separator/>
+		<Program label="Reboot">/sbin/shutdown -r now</Program>
+		<Program label="Poweroff">/sbin/shutdown -s now</Program>
+	</Menu>
+</RootMenu>
+
+<Desktops width="1" height="2">
+	<Background type="command">~/.fehbg</Background>
+</Desktops>
+
+<DoubleClickSpeed>400</DoubleClickSpeed>
+<DoubleClickDelta>5</DoubleClickDelta>
+<FocusModel>click</FocusModel>
+<SnapMode distance="10">none</SnapMode>
+<MoveMode>opaque</MoveMode>
+<ResizeMode>opaque</ResizeMode>
+
+<Key key="Up">up</Key>
+<Key key="Down">down</Key>
+<Key key="Right">right</Key>
+<Key key="Left">left</Key>
+<Key key="h">left</Key>
+<Key key="j">down</Key>
+<Key key="k">up</Key>
+<Key key="l">right</Key>
+<Key key="Return">select</Key>
+<Key key="Escape">escape</Key>
+
+<Key mask="A" key="Tab">nextstacked</Key>
+<Key mask="4" key="#">desktop#</Key>
+<Key mask="4" key="Escape">window</Key>
+<Key mask="4" key="F1">minimize</Key>
+<Key mask="4" key="F2">maximize</Key>
+<Key mask="4" key="F3">close</Key>
+<Key mask="A" key="F4">close</Key>
+<Key mask="4" key="Up">udesktop</Key>
+<Key mask="4" key="Down">ddesktop</Key>
+
+<Mouse context="icon" button="4">shade</Mouse>
+<Mouse context="icon" button="5">shade</Mouse>
+<Mouse context="title" button="4">shade</Mouse>
+<Mouse context="title" button="5">shade</Mouse>
+
+<Key mask="4" key="C">exec: xcolor | xmessage -title "xcolor" -file -</Key>
+<Key mask="4" key="X">exec: urxvt</Key>
+<Key mask="4" key="F">exec: firefox</Key>
+<Key mask="4" key="Print">exec: scrot -s -f -l style=solid,color=#abb0ba,width=2 ~/screenies/jwm.png -e 'xclip -sel clipboard -target image/png -i $f'</Key>
+<Key key="Print">exec: scrot -s -f -l style=solid,color=#abb0ba,width=2 -| xclip -sel c -target image/png</Key>
+
+<Group>
+	<Option>tiled</Option>
+	<Option>aerosnap</Option>
+</Group>
+
+<!--Group>
+	<Name>xclock</Name>
+	<Option>notitle</Option>
+	<Option>noshade</Option>
+	<Option>nolist</Option>
+	<Option>nomove</Option>
+	<Option>noresize</Option>
+	<Option>nofocus</Option>
+	<Option>layer:below</Option>
+	<Option>x:50</Option>
+	<Option>y:50</Option>
+</Group-->
+
+<Group>
+	<Name>xmessage</Name>
+	<Name>xeyes</Name>
+	<Name>xfontsel</Name>
+	<Name>xclock</Name>
+	<Name>xmag</Name>
+	<Name>xconsole</Name>
+	<Name></Name>
+	<Name>xterm</Name>
+	<Name>urxvt</Name>
+	<Name>alacritty</Name>
+	<Name>kitty</Name>
+	<Name></Name>
+	<Option>notitle</Option>
+</Group>
+
+<WindowStyle decorations="flat">
+	<Font>BmPlus\ ToshibaSat\ 8x14</Font>
+	<Width>4</Width>
+	<Height>22</Height>
+	<Corner>0</Corner>
+	<Background>#E2D3C7</Background>
+	<Foreground>#35312C</Foreground>
+	<Opacity>1</Opacity>
+	<Active>
+		<Background>#F0E1D5</Background>
+		<Foreground>#35312C</Foreground>
+		<Opacity>1</Opacity>
+	</Active>
+</WindowStyle>
+
+<TrayStyle decorations="flat">
+	<Font>Bm437 SperryPC CGA\-2y</Font>
+	<Background>#333333</Background>
+	<Foreground>#e2dac8</Foreground>
+	<Opacity>1</Opacity>
+</TrayStyle>
+
+<TaskListStyle list="all" group="true">
+	<Font>BmPlus\ ToshibaSat\ 8x14</Font>
+	<Background>#333333</Background>
+	<Foreground>#e2dac8</Foreground>
+	<Active>
+		<Background>#e2dac8</Background>
+		<Foreground>#333333</Foreground>
+	</Active>
+</TaskListStyle>
+
+<PagerStyle>
+	<Background>#333333</Background>
+	<Foreground>#e2dac8</Foreground>
+	<Text>#FFFFFF</Text>
+	<Active>
+		<Background>#433c35</Background>
+		<Foreground>#e2dac8</Foreground>
+	</Active>
+</PagerStyle>
+
+<MenuStyle decorations="flat">
+	<Font>BmPlus\ ToshibaSat\ 8x16</Font>
+	<Background>#433c35</Background>
+	<Foreground>#e2dac8</Foreground>
+	<Active>
+		<Background>#82775f</Background>
+		<Foreground>#e2dac8</Foreground>
+	</Active>
+	<Opacity>1</Opacity>
+</MenuStyle>
+
+<ClockStyle decorations="flat">
+	<Font>Bm437 SperryPC CGA\-2y</Font>
+</ClockStyle>
+
+<StartupCommand>jwmrc</StartupCommand>
+
+</JWM>

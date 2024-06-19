@@ -1,0 +1,78 @@
+ThemeDescription="no_[cce]"
+
+ThemeAuthor="https://github.com/mtrkss"
+
+ShowMenuButtonIcon=0
+Look=flat
+TitleBarHeight=23
+TitleBarJustify=50
+
+Gradients="buttonI.xpm"
+
+TitleButtonsLeft="s"
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+# menus
+ColorNormalMenu="#282b30"
+ColorActiveMenuItem="#2f343f" # this adds the border
+ColorNormalMenuItemText="#c8c8ee"
+ColorActiveMenuItemText="#282b30"
+ColorListBoxSelection="#2f343f"
+ColorListBoxSelectionText="#ffffff"
+
+BorderSizeX=2
+BorderSizeY=2
+DlgBorderSizeX=3
+DlgBorderSizeY=3
+ColorNormalBorder="#2f343f"
+ColorActiveBorder="#2f343f"
+ColorNormalButton="#282b30"
+TaskbuttonIconOffset=10
+
+# titlebar
+ColorNormalTitleBar="#282b30"
+ColorActiveTitleBar="#c8c8ee"
+ColorNormalTitleBarText="#c8c8ee"
+ColorActiveTitleBarText="#282b30"
+#ColorActiveTitleBarShadow="#323232"
+#ColorActiveTitleBarShadow="#323232"
+
+# listbox
+ColorListBox="#282B30"
+ColorListBoxText="#c8c8ee"
+
+# dialog boxes
+ColorDialog="#282B30"
+ColorLabelText="#c8c8ee"
+ColorNormalButton="#2f343f"
+ColorNormalButtonText="#c8c8ee"
+
+#Quick switch
+ColorQuickSwitch="#282B30"
+ColorQuickSwitchActive="#c8c8ee"
+ColorQuickSwitchText="#c8c8ee"
+
+# movestatus
+
+ColorMoveSizeStatus="#282b30"
+ColorMoveSizeStatusText="#c8c8ee"
+
+# wallpaper
+DesktopBackgroundCenter=0
+DesktopBackgroundFill=1
+DesktopBackgroundImage="bg.png" # provide one yourself.
+
+RolloverButtonsSupported=1
+
+# fonts
+TitleFontNameXft		   = "Spleen 8x16"
+MenuFontNameXft	           = "Spleen 8x16"
+MinimizedWindowFontNameXft = "Spleen 8x16"
+ActiveButtonFontNameXft    = "Spleen 8x16"
+NormalButtonFontNameXft    = "Spleen 8x16"
+ListBoxFontNameXft         = "Spleen 8x16"
+LabelFontNameXft		   = "Spleen 8x16"
+StatusFontNameXft          = "Spleen 8x16"
+ToolTipFontNameXft         = "Spleen 8x16"
+QuickSwitchFontNameXft     = "Spleen 8x16"

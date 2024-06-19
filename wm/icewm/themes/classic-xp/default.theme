@@ -1,0 +1,41 @@
+ThemeDescription="wind was"
+ThemeAuthor="mtrkss"
+
+Gradients="titleAT.xpm titleIT.xpm titleAB.xpm titleIB.xpm"
+Look=pixmap
+TitleBarHeight=18
+TitleBarJustify=0
+
+TitleButtonsLeft="s"
+TitleButtonsRight="xmi"
+TitleButtonsSupported="sxmi"
+
+BorderSizeX=4
+BorderSizeY=4
+CornerSizeX=5
+CornerSizeY=5
+DlgBorderSizeX=2
+DlgBorderSizeY=2
+
+ColorActiveMenuItemText="#ffffff"
+ColorActiveTitleBar="#0a246a"
+ColorNormalTitleBarText="#c0c0c0"
+
+DesktopBackgroundCenter=1
+DesktopBackgroundScaled=1
+DesktopBackgroundImage="bg.xpm"
+
+# fonts
+TitleFontNameXft	   = "BmPlus ToshibaSat 8x8:size=4"
+MenuFontNameXft	           = "BmPlus ToshibaSat 8x14:size=8"
+MinimizedWindowFontNameXft = "BmPlus ToshibaSat 8x14:size=8"
+ActiveButtonFontNameXft    = "BmPlus ToshibaSat 8x14:size=8"
+NormalButtonFontNameXft    = "BmPlus ToshibaSat 8x14:size=8"
+ListBoxFontNameXft         = "BmPlus ToshibaSat 8x14:size=8"
+LabelFontNameXft	   = "BmPlus ToshibaSat 8x14:size=8"
+StatusFontNameXft          = "BmPlus ToshibaSat 8x14:size=8"
+ToolTipFontNameXft         = "BmPlus ToshibaSat 8x14:size=8"
+QuickSwitchFontNameXft     = "BmPlus ToshibaSat 8x14:size=8"
+ClockFontNameXft	   = "BmPlus IBM CGAthin:size=4"
+NormalTaskBarFontNameXft   = "BmPlus ToshibaSat 8x14:size=8"
+ActiveTaskBarFontNameXft   = "BmPlus ToshibaSat 8x14:size=8"

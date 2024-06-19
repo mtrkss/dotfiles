@@ -1,0 +1,73 @@
+!xeyes fix
+xeyes*center: #ffffff
+xeyes*foreground: #2f2f2f
+xeyes*outline: #2f2f2f
+!clock fix
+xclock*background: #323232
+xclock*hourColor: #a0a0a0
+xclock*minuteColor: #e0e0e0
+xclock*minorColor: #a0a0a0
+xclock*majorColor: #e0e0e0
+xclock*highlight: #e0e0e0
+Clock*hour: #e0e0e0
+Clock*minute: #e0e0e0
+Clock*jewel: #e0e0e0
+Clock*BorderColor: #e0e0e0
+Clock*Background: #323232
+
+xterm*faceName: -misc-fixed-medium-r-normal-*-16-*-*-*-*-*-koi8-r
+
+*.foreground:   #dcdcdc
+*.background:   #303030
+*.cursorColor:  #dcdcdc
+*faceName: -misc-fixed-medium-r-normal-*-14-*-*-*-*-*-koi8-r
+*font: -misc-fixed-medium-r-normal-*-14-*-*-*-*-*-koi8-r
+
+!URxvt.boldFont: -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-5
+!URxvt.font: -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-5
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt.transparent: false
+URxvt.borderLess: false
+URxvt.scrollBar_right: true
+URxvt.depth: 32
+URxvt.thickness: 5
+URxvt.fading: 10
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.internalBorder: 4
+URxvt.background: rgba:3000/3000/3000/dddd
+URxvt.borderColor: rgba:3000/3000/3000/dddd
+URxvt.fadeColor: rgba:3000/3000/3000/0000
+
+! black+gray
+*.color0:       #303030
+*.color8:       #959595
+
+! darkred+red
+*.color1:       #ffffff
+*.color9:       #ffffff
+
+! darkgreen+green
+*.color2:       #d4d4d4
+*.color10:      #d8d8d8
+
+! darkyellow+yellow
+*.color3:       #a4a4a4
+*.color11:      #b0b0b0
+
+! darkblue+blue
+*.color4:       #808080
+*.color12:      #909090
+
+! darkpurp+purp
+*.color5:       #b4b4b4
+*.color13:      #ababab
+
+! darkcyan+cyan
+*.color6:       #c0c0c0
+*.color14:      #d8d8d8
+
+! lightgray+white
+*.color7:       #c2c2c2
+*.color15:      #ffffff

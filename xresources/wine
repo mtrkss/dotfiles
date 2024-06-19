@@ -1,0 +1,69 @@
+!xeyes fix
+xeyes*center: #ffffff
+xeyes*foreground: #2f2f2f
+xeyes*outline: #2f2f2f
+!clock fix
+xclock*.hourColor: #bbbbbb
+xclock*.minuteColor: #bbbbbb
+xclock*.minorColor: #bbbbbb
+xclock*.majorColor: #bbbbbb
+Clock*hour: #bbbbbb
+Clock*minute: #bbbbbb
+Clock*jewel: #bbbbbb
+Clock*BorderColor: #a9adaa
+Clock*Background: #2f2f2f
+
+*.foreground:   #dcd6e4
+*.background:   #282b30
+*.cursorColor:  #dcd6e4
+*faceName: -misc-fixed-bold-r-normal--13-120-75-75-c-70-iso8859-5
+*font: -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-5
+
+!URxvt.boldFont: -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-5
+URxvt.font: -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-5
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt.transparent: false
+URxvt.borderLess: false
+URxvt.scrollBar_right: true
+URxvt.depth: 32
+URxvt.thickness: 5
+URxvt.fading: 10
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.internalBorder: 4
+URxvt.background: rgba:2800/2b00/3000/dddd
+URxvt.borderColor: rgba:2800/2b00/3000/dddd
+URxvt.fadeColor: rgba:2800/2b00/3000/0000
+
+! black+gray
+*.color0:       #282b30
+*.color8:       #868d95
+
+! darkred+red
+*.color1:       #f8c8ee
+*.color9:       #f4b6d4
+
+! darkgreen+green
+*.color2:       #c4b6d4
+*.color10:      #d8c8ee
+
+! darkyellow+yellow
+*.color3:       #9486a4
+*.color11:      #d8c8ee
+
+! darkblue+blue
+*.color4:       #d8c8ee
+*.color12:      #d8c8ee
+
+! darkpurp+purp
+*.color5:       #a496b4
+*.color13:      #d8c8ee
+
+! darkcyan+cyan
+*.color6:       #c4b6d4
+*.color14:      #d8c8ee
+
+! lightgray+white
+*.color7:       #bec2da
+*.color15:      #ffffff

@@ -1,0 +1,109 @@
+#!/usr/bin/env bash
+
+fakedd(){
+printf "\nsudo dd if=/dev/random of=/dev/sda status=progress\n"
+sleep 1
+printf "256649216 bytes (257 MB, 245 MiB) transferred 1.002s, 256 MB/s\n"
+sleep 1
+printf "555312640 bytes (555 MB, 530 MiB) transferred 2.001s, 278 MB/s\n"
+sleep 1
+printf "820581888 bytes (821 MB, 783 MiB) transferred 3.007s, 273 MB/s\n"
+sleep 1
+printf "Segmentation fault\n1885031+0 records in\n1885031+0 records out\n965135872 bytes transferred in 3.525289 secs (273774988 bytes/sec)\n"
+}
+
+_slg=(
+	"nofetch but better?!"
+	"googoo-gaga"
+	"btw i use $(uname)"
+	"yup, just how i remember it."
+	"darius halley."
+	"plan 10 when?"
+	"did you forget to mount / ?"
+	"since when do we have a pet headcrab?"
+	"sway more like slay"
+	"brb food."
+	"you're ##### \n> bro i hate roblox chat filter"
+	"Segmentation fault"
+	"i need more boolets!"
+	"lin cooks"
+	"you should shred /sys/firmware/efi/* NOW!"
+	"h"
+	"tinybuffet more like bigbuffet"
+	"OwO"
+	":3"
+	"Your ad could be here!"
+	"Also try 9front!"
+	"..."
+	"OpenSUS"
+	"no"
+	"gnetmoo"
+	"https://github.com/Amog-OS/AmogOS/commits/4f503a0"
+	"run sudo cryptsetup luksErase /dev/sda for uhhhhhh"
+	"The major feature for the release is tight integration between the package
+> manager and systemd. After much discussion about how best to perform
+> updates on a rolling release system, we realized that it was essential
+> to have updates preformed with minimal other processes running.
+> Also, the security aspects of updates mean that it is essential that
+> these get provided as soon as possible.
+> We felt the best way to achieve this was to perform updates on shutdown.
+> This is achieved through a new daemon, pacmand that monitors and downloads
+> updates in the background. When updates are found, it schedules a reboot
+> of the system (hence the need to integrate systemd). At the moment the
+> timing of the reboots is not configurable, but a timer will pop-up to
+> allow you to delay it for a preset amount of time.
+> Configuration will likely be added in pacman-4.2, when pacmanctl
+> will be ready for general use. Until that release is made,
+> Arch Linux will minimize the impact by performing all updates in
+> its [testing] repository and only push updates on a yet to be decided
+> day and time of the week. A news post will be made when that is decided.
+
+> Of course, all this makes systemd a hard dependency of pacman.
+> We felt this was acceptable given Arch Linux has officially switched to
+> using systemd. As this release is not tested (and unlikely to work)
+> on systems without systemd, Arch users or other distributions using
+> pacman will be required to make the switch to systemd if they want to
+> continue using pacman as their package manager. The integration with system
+> will become tighter in pacman-4.2 where we plan to use the upcoming kdbus
+> message passing interface – through libsystemd-bus – to allow other
+> programs to interact with pacman, making the development of alternative
+> front-ends easier."
+	"FreeBSD? More like FreeBSD"
+	"micro is the best text editor ONG!!"
+	"       ÆÞ     íÆ   ÆÆÆÆ        Æz       Æ 
+>	Æ        ÇÆ ÆÏ   ›GÆ  Æg         Æ 
+>	 Æ          Æ Æ      ›ÆÆ          g 
+>	ÆG          GG         ›z         g 
+>	ÆÞ         ——›                    Æ 
+>	 Æ                                Æ 
+>	 Æ                               ›Æ 
+>	  Æ   6ÆÞÞÆÆÆÆ›     gÆÆÆg  Å    {Æ  
+>	Æ  Æ› G   ÆÆÆÆ      ÆÆÆÆÅ  ü  zÆÆÆÆ 
+>	g     Æ   ÆÆÆÆ      zÆÆÆ›  z—    Æ  
+>	 ÆÅ   —{   ÆÆ  ÆÆ›             ÅÆ   
+>	  Æ{ íGG—                zÞÇ    Æ   
+>	 Æ—          ígÅz›íí›            Æ  
+>	      ÆÆ                 6ÆÆ        
+>	         ÆzGÆÇ          Æ           
+>	          ÆÆ             Æ          
+>	          Æ               Æ         
+>	            Ï             íÆ        
+>	           Æ               Å\n"
+	"fun and friendly advice from mr. cow:
+ _________________________________ 
+< You should sudo rm -rf /*, NOW! >
+ --------------------------------- 
+        \   ^__^
+         \  (oo)\\_______
+            (__)\\       )\\/\\
+                ||----w |
+                ||     ||"
+)
+
+if (( $(( RANDOM % 100 + 1 )) <= 1 )); then
+	fakedd
+	sleep 2
+	printf "\n> haha jk\n\n"
+else
+printf "\n> ${_slg[$(($RANDOM % ${#_slg[@]}))]}\n> $(uname -orm) ($(uname -n))\n\n"
+fi
