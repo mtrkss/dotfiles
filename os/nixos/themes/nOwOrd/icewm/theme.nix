@@ -3,10 +3,10 @@ let
 myDots = pkgs.fetchFromGitHub {
   owner = "mtrkss";
   repo = "dotfiles";
-  rev = "1182e6d";
-  sha256 = "16wizx4yp8n27gl416szn3vv44gf6yz50bp932k2xhrfpgknlcgq";
+  rev = "e5c6f26";
+  sha256 = "04pl7xglzv5zvm3bwpp3rlsyr9mf3ji0y46hyylxhkdlr347jkik";
 }; in {
 home.file = {
-  ".icewm/themes/nOwOrd".source = "${myDots}/wms/icewm/themes/nOwOrd";
+  ".icewm/themes/nOwOrd".source = "${myDots}/wm/icewm/themes/nOwOrd";
 };
 }
