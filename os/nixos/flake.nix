@@ -45,7 +45,6 @@ outputs = {
     home-manager.users.${username} = { imports = [
      ./hosts/${hostname}/home
      ./themes/${theme}
-     ./hosts/${hostname}/virt/home.nix
     ];};
    }
   ];
@@ -53,6 +52,13 @@ outputs = {
   spymalware-a3200 = myMachine {
    system = "x86_64-linux";
    hostname = "spymalware-a3200";
+   username = "cone";
+   userdesc = "VLC Media Player";
+   theme = "gnomedefault";
+  }; # maybe gonna add more machines
+  thinkpadx250 = myMachine {
+   system = "x86_64-linux";
+   hostname = "calculator";
    username = "cone";
    userdesc = "VLC Media Player";
    theme = "gnomedefault";
