@@ -3,6 +3,7 @@ imports = [
   ./firefox.nix
   ./packages.nix
   ./shell.nix
+  ./gzdoom.nix
 ];
 
 home.file = {
