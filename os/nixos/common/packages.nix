@@ -13,7 +13,6 @@ tmux
 htop
 hexedit
 btop
-micro
 
 # Dev / useful
 nixpkgs-fmt
@@ -30,18 +29,11 @@ unrar
 lf
 bat
 bc
-gst_all_1.gstreamer
-gst_all_1.gst-plugins-base
-gst_all_1.gst-plugins-good
-gst_all_1.gst-plugins-bad
-gst_all_1.gst-plugins-ugly
 
 # other
 tree
-uwuify
 curl
 wget
 dash
-steam-run
 ];
 }

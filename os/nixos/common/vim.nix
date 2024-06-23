@@ -10,6 +10,7 @@ environment.systemPackages = with pkgs; [
         vim-nix
         fzf-vim
         vim-tmux
+        vim-xtabline
         vim-airline
         vim-nerdtree-syntax-highlight
         nerdcommenter

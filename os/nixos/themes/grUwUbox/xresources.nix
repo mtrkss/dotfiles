@@ -14,7 +14,7 @@ xresources.properties = {
   "*background" = "#1d2021";
   "*foreground" = "#ebdbb2";
   "*cursorColor" = "#a89984";
-  "urxvt*backgroundPixmap" = "/etc/nixos/traffic/extra/ubg-gruv.xpm;style=tiled";
+  "urxvt*backgroundPixmap" = "/etc/nixos/extra/ubg-gruv.xpm;style=tiled";
   "*color0" = "#282828";
   "*color1" = "#CC241D";
   "*color2" = "#98971A";

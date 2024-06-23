@@ -37,7 +37,6 @@ jp2a
 pulseaudio
 bluez
 polkit_gnome
-libvirt-glib
 file
 gsm
 

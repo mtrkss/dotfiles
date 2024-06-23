@@ -20,8 +20,8 @@ boot = {
   }; # loader
   kernel = {
     sysctl = {
-    "net.ipv4.ip_default_ttl" = "65";
-    "net.ipv6.conf.all.hop_limit" = "65";
+      "net.ipv4.ip_default_ttl" = "65";
+      "net.ipv6.conf.all.hop_limit" = "65";
     };
   };
   kernelParams = [
@@ -30,7 +30,6 @@ boot = {
   ];
   extraModulePackages = with config.boot.kernelPackages; [
     v4l2loopback
-    chipsec
   ];
 };
 
@@ -40,6 +39,12 @@ environment.etc."libinput/local-overrides.quirks".text =
 MatchUdevType=mouse
 ModelBouncingKeys=1
 '';
+
+fileSystems."/tmp" = {
+  device = "none";
+  fsType = "tmpfs";
+  options = [ "size=2G" "mode=777" ];
+};
 
 time.timeZone = "Europe/Minsk";
 nix.settings.experimental-features = [ "nix-command" "flakes" ];

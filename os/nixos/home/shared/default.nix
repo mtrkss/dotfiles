@@ -1,9 +1,7 @@
 { config, ... }: {
 imports = [
   ./firefox.nix
-  ./packages.nix
   ./shell.nix
-  ./gzdoom.nix
 ];
 
 home.file = {
@@ -16,11 +14,6 @@ home.file = {
 	name = mtrkss
 [gpg "ssh"]
 	allowedSignersFile = /home/cone/.ssh/allowed_signers
-'';
-".xinitrc".executable = true;
-".xinitrc".text = ''
-xrdb ~/.Xresources
-dbus-launch --exit-with-session icewm-session
 '';
 };
 

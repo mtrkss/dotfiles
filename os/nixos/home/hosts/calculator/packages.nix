@@ -3,33 +3,31 @@ nixpkgs.config.allowUnfree = true;
 home.packages = with pkgs; [
 # net
 nssTools
-telegram-desktop
-vesktop
-youtube-dl
+inetutils
 
 # img/vid
 gimp
-vlc
+mpv
 feh
 
 # sdfsdf
-fragments
 openboardview
-xarchiver
-pcmanfm
-shared-mime-info
-scrot
 pipx
 xcolor
 ventoy-full
 drawterm
 obs-studio
 obs-studio-plugins.obs-gstreamer
+gst_all_1.gst-plugins-base
+gst_all_1.gst-plugins-good
+gst_all_1.gst-plugins-ugly
+gst_all_1.gst-plugins-bad
+pfetch-rs
+catimg
 
 # audio
 cmus
 audacity
-easyeffects
 gsm
 
 # games
@@ -38,23 +36,10 @@ flips
 summoning-pixel-dungeon
 pcsxr
 fceux
-yabause
-dgen-sdl
-snes9x-gtk
-mednafen
+punes
 gzdoom
-wineWowPackages.stable
-winetricks
-bottles
-prismlauncher
-temurin-jre-bin # minecraft deps
-pfetch-rs
-catimg
-dolphin-emu
 
 # tracker
-furnace
-punes
 ft2-clone
 #pt2-clone # breaks nix
 
@@ -62,6 +47,5 @@ ft2-clone
 xdgmenumaker
 lxappearance
 gtk2fontsel
-
 ];
 }
