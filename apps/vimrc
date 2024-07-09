@@ -3,10 +3,12 @@ set ruler
 set backspace=indent,eol,start
 syntax on 
 set ignorecase
-set confirm
 set cmdheight=1
 set mouse=a
 set hid
+set laststatus=2
+set t_Co=16
+let g:lightline = { 'colorscheme': 'wombat', }
 
 " some config from https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim
 set autoread
