@@ -1,8 +1,7 @@
-!xeyes fix
+! magic
 xeyes*center: #ffffff
 xeyes*foreground: #2f2f2f
 xeyes*outline: #2f2f2f
-!clock fix
 xclock*hourColor: #dcd6e4
 xclock*minuteColor: #dcd6e4
 xclock*minorColor: #dcd6e4
@@ -13,61 +12,46 @@ Clock*jewel: #dcd6e4
 Clock*BorderColor: #323232
 Clock*Background: #323232
 
-*.foreground:   #dcd6e4
-*.background:   #202226
-*.cursorColor:  #dcd6e4
-*faceName: -misc-fixed-bold-r-normal--13-120-75-75-c-70-iso8859-5
-*font: -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-5
-
-Xft.lcdfilter:  lcdlight
-XTerm*faceName: MxPlus ToshibaSat 8x16:size=12
-XTerm*allowBoldFonts: false
-!xterm.vt100.renderFont: false
-
-urxvt*font: xft:MxPlus ToshibaSat 8x16:size=12
-urxvt*boldFont: xft:MxPlus ToshibaSat 8x16:size=12
-
-URxvt.scrollstyle: plain
-URxvt.scrollBar: false
-URxvt.transparent: false
-URxvt.borderLess: false
-URxvt.scrollBar_right: true
-URxvt.depth: 32
-URxvt.thickness: 5
-URxvt.fading: 10
-URxvt.letterSpace: 0
-URxvt.lineSpace: 0
-URxvt.internalBorder: 12
-URxvt.fadeColor: rgba:2000/2200/2600/0000
+*foreground: #dcd6e4
+*background: #202226
+*cursorColor: #dcd6e4
+xterm*faceName: Terminus:size=8
+xterm*allowBoldFonts: false
+urxvt*font: xft:Terminus:size=8
+urxvt*scrollBar: false
+urxvt*depth: 32
+urxvt*fading: 10
+urxvt*background: rgba:1000/1100/1300/c000
+urxvt*fadeColor: rgba:2000/2200/2600/0000
 
 ! black+gray
-*.color0:       #282b30
-*.color8:       #8486a4
+*color0:       #282b30
+*color8:       #8486a4
 
 ! darkred+red
-*.color1:       #8e84a4
-*.color9:       #b8a8c0
+*color1:       #8e84a4
+*color9:       #b8a8c0
 
 ! darkgreen+green
-*.color2:       #9aa8b9
-*.color10:      #c1d1df
+*color2:       #9aa8b9
+*color10:      #c1d1df
 
 ! darkyellow+yellow
-*.color3:       #8c8ea6
-*.color11:      #d9e1ec
+*color3:       #8c8ea6
+*color11:      #d9e1ec
 
 ! darkblue+blue
-*.color4:       #9496b4
-*.color12:      #8486a4
+*color4:       #9496b4
+*color12:      #8486a4
 
 ! darkpurp+purp
-*.color5:       #b9a8c0
-*.color13:      #9d84a4
+*color5:       #b9a8c0
+*color13:      #9d84a4
 
 ! darkcyan+cyan
-*.color6:       #b4b6d4
-*.color14:      #c8c8ee
+*color6:       #b4b6d4
+*color14:      #c8c8ee
 
 ! lightgray+white
-*.color7:       #b8c8ee
-*.color15:      #ffffff
+*color7:       #b8c8ee
+*color15:      #ffffff
