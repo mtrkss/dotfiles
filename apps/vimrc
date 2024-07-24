@@ -15,7 +15,7 @@ set autoread
 au FocusGained,BufEnter * silent! clicktime
 let mapleader = ","
 nmap <leader>w :w!<cr>
-command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
+command! W execute 'w !doas tee % > /dev/null' <bar> edit!
 set hlsearch
 set magic
 set showmatch
